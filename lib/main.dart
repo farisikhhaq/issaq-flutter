@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:issaq_pro/page/doa_page.dart';
+import 'package:issaq_pro/page/notifikasi_page.dart';
 import 'package:issaq_pro/page/sholat_page.dart';
+import 'package:issaq_pro/page/tambahan_page.dart';
 import 'package:provider/provider.dart';
 import 'package:issaq_pro/model/navigasi-item.dart';
 import 'package:issaq_pro/page/berita-page.dart';
@@ -55,9 +57,13 @@ class _MainPageState extends State<MainPage> {
       case NavigationItem.berita:
         return FavouritesPage();
       case NavigationItem.sholat:
-        return WorkflowPage(); 
+        return WorkflowPage();
       case NavigationItem.doa:
-        return UpdatesPage(); 
+        return doaPage();
+      case NavigationItem.tambahan:
+        return PluginsPage();
+      case NavigationItem.notifikasi:
+        return NotificationsPage();
     }
   }
 }
