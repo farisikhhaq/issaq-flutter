@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:issaq_pro/model/artikel_islami.dart';
 import 'package:issaq_pro/utils/custom_color.dart';
 
 import 'detail_artikel.dart';
