@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:issaq_pro/berita/list_artikel.dart';
 import 'package:issaq_pro/widget/navigation_drawer_widget.dart';
 
 class FavouritesPage extends StatelessWidget {
@@ -9,6 +10,12 @@ class FavouritesPage extends StatelessWidget {
           title: Text('Berita'),
           centerTitle: true,
           backgroundColor: Colors.red,
+        ),
+        body: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              ListArtikel()
+          ],),
         ),
       );
 }
