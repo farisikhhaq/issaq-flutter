@@ -30,8 +30,7 @@ class ListDoa extends StatelessWidget {
                     ),
                   ),
                   Flexible(
-                      child: Image.asset('', width: 150,)
-                  )
+                      child: Image.asset('assets/img_2.png', width: 150,))
                 ],
               ),
               SizedBox(
