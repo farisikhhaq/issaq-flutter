@@ -11,7 +11,6 @@ class DoaPage extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red,
         ),
-        body: Container(
-        child: ListDoa()),
-  );
+        body: Container(child: ListDoa()),
+      );
 }
