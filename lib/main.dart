@@ -55,11 +55,11 @@ class _MainPageState extends State<MainPage> {
       case NavigationItem.quran:
         return PeoplePage();
       case NavigationItem.berita:
-        return FavouritesPage();
+        return ArtikelPage();
       case NavigationItem.sholat:
         return WorkflowPage();
       case NavigationItem.doa:
-        return doaPage();
+        return DoaPage();
       case NavigationItem.tambahan:
         return PluginsPage();
       case NavigationItem.notifikasi:
