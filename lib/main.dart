@@ -6,7 +6,7 @@ import 'package:issaq_pro/page/sholat_page.dart';
 import 'package:issaq_pro/page/tambahan_page.dart';
 import 'package:provider/provider.dart';
 import 'package:issaq_pro/model/navigasi-item.dart';
-import 'package:issaq_pro/page/berita-page.dart';
+import 'package:issaq_pro/page/artikel-page.dart';
 import 'package:issaq_pro/page/quran-page.dart';
 import 'package:issaq_pro/page/header_page.dart';
 import 'package:issaq_pro/provider/navigation_provider.dart';
