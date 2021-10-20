@@ -1,7 +1,7 @@
 enum NavigationItem {
   header,
   quran,
-  berita,
+  artikel,
   sholat,
   doa,
   tambahan,

@@ -18,7 +18,7 @@ class ListArtikel extends StatelessWidget {
               children: dataArtikelIslam.map((place) {
                 return RaisedButton(
                   elevation: 0,
-                  color: newColor2,
+                  color: backColor,
                   onPressed: () {
                     Navigator.push(
                         context,
@@ -38,7 +38,7 @@ class ListArtikel extends StatelessWidget {
                             }));
                   },
                   child: Card(
-                    color: Colors.pink[100],
+                    color: Colors.redAccent[100],
                     elevation: 2.0,
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
