@@ -32,8 +32,8 @@ class NavigationDrawerWidget extends StatelessWidget {
                     const SizedBox(height: 16),
                     buildMenuItem(
                       context,
-                      item: NavigationItem.berita,
-                      text: 'Berita',
+                      item: NavigationItem.artikel,
+                      text: 'Artikel',
                       icon: Icons.description_rounded,
                     ),
                     const SizedBox(height: 16),

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color toscaColor = Color(0xff227f9c);
+Color toscaColor = Color(0xfff26363);
 Color lightToscaColor = Color(0xff5daecd);
 Color darkToscaColor = Color(0xff00536e);
-Color newColor = Color(0xff6ddccf);
-Color newColor2 = Color(0xffBD82A2);
+Color backColor = Color(0xff6ddccf);
+Color newColor2 = Color(0xffC382049);
 Color newColor3 = Color(0xff79708F);
 
 var styleTitle = TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, fontFamily: 'komik');
