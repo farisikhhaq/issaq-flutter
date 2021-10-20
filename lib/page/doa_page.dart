@@ -7,9 +7,12 @@ class DoaPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         drawer: NavigationDrawerWidget(),
         appBar: AppBar(
-          title: Text('Doa'),
+          title: Text(
+            'Doa',
+            style: TextStyle(fontFamily: 'sans-serif', color: Colors.black),
+          ),
           centerTitle: true,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.red[200],
         ),
         body: Container(child: ListDoa()),
       );

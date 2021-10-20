@@ -7,7 +7,10 @@ class ArtikelPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         drawer: NavigationDrawerWidget(),
         appBar: AppBar(
-          title: Text('Berita'),
+         title: Text(
+            'Artikel',
+            style: TextStyle(fontFamily: 'sans-serif', color: Colors.black),
+          ),
           centerTitle: true,
           backgroundColor: Colors.red,
         ),

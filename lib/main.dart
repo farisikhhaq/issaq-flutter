@@ -53,8 +53,8 @@ class _MainPageState extends State<MainPage> {
       case NavigationItem.header:
         return HeaderPage();
       case NavigationItem.quran:
-        return PeoplePage();
-      case NavigationItem.berita:
+        return QuranPage();
+      case NavigationItem.artikel:
         return ArtikelPage();
       case NavigationItem.sholat:
         return WorkflowPage();
