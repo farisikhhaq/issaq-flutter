@@ -12,7 +12,7 @@ class ArtikelPage extends StatelessWidget {
             style: TextStyle(fontFamily: 'sans-serif', color: Colors.black),
           ),
           centerTitle: true,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.deepOrange[400],
         ),
         body: SingleChildScrollView(
           child: Column(
