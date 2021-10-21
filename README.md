@@ -79,15 +79,16 @@ C:\src>flutter run
 2. Kendala splashcreen yang gambarnya tidak dapat muncul
 
 ## IDENTITAS DIRI
-
+```
 FARIS IKHLASUL HAQ
 TI 3A / 07
 1941720062
-
+```
 ## DOSEN PENGAMPU
+```
 Dian Hanifudin Subhi, S.Kom., M.Kom.
 https://github.com/dhanifudin
-
+```
 
 ## JURUSAN TEKNOLOGI INFORMASI
-![](gif/JTI.PNG)
+![](gif/JTI.png)
