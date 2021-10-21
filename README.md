@@ -8,6 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Demo
 ![](gif/listcek1.gif)
+![](gif/listcek2.gif)
+![](gif/listcek3.gif)
 
 
 ### Prerequisites
