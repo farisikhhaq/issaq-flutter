@@ -5,6 +5,7 @@ Jadi ini merupakan aplikasi yang melingkup seputar agama seperti informasi Shola
 ## Pendahuluan
 
 Pada project aplikasi ini saya menggunakan flutter sebagai framework dan bahasa pemograman dart sebagai back-end nya. serta ada beberapa sumber lain sebagai artikle maupun lainnya. untuk menjalankan aplikasi ini diperlukan beberapa installasi software untuk pengembangannya.
+serta pada project aplikasi ini juga adalah lebih berfokus pada Perpindahan Page dan List. Saya disini menggunakan *PAGE BERITA ARTIKLE* dan *PAGE DOA*
 
 ### Installasi
 
@@ -40,57 +41,53 @@ C:\src>flutter run
    ![](gif/sidebarcek33.gif)
    ![](gif/sidebarcek44.gif)
 
-    1                                    2                                3                                 4  
+
 ### List View Pada Page Artikel
 ![](gif/listcek1.gif)
    ![](gif/listcek2.gif)
    ![](gif/listcek3.gif)
 
-### List View Pada Page Artikel
+
+### List View Pada DOA dan Pergantian Page
 ![](gif/listcekdoa11.gif)
    ![](gif/listcekdoa22.gif)
 
 
 ### Penjelasan
 
-The things you need before installing the software.
+1. Demo Sidebar Perpindahan Antar Page
 
-* You need this
-* And you need this
-* Oh, and don't forget this
+* Gambar 1 = Menu awal akan diawali oleh Sidebar Quran yang akan dilarikan ke Page Quran
+* Gambar 2 = Perpindahan dari Page Artikle ke Sholat
+* Gambar 3 = Perpindahan dari Page Sholat ke Doa
+* Gambar 4 = Perpindahan dari Page Tambahan ke Notifikasi
+
+2. List View Pada Page Artikel
+
+* Gambar 1 = List View berjumlah 10 dan dapat berpindah page dengan adanya pemilihan data melalui detail_artikle.dart menggunakan model yang telah dibuat
+* Gambar 2 = Mencoba membuka salah satu artikle
+* Gambar 3 = Melakukan Scroll dan membuka random artikle lainnya
+
+3. List View Pada DOA dan Pergantian Page
+
+* Gambar 1 = Menekan  Page doa dan akan menampilkan 8 data model yang telah dibuat dengan berbentuk list cardview
+* Gambar 2 = Melakukan Klik random salah satu opsi model yang telah dibuat
+
+## In Progress dan Error Saat pengerjaan
+
+1. Pembuatan Login dan Register yang masih tahap inprogress karena terjadi kesalahan pada saat pembuatan yaitu error AppMapDebug
+2. Kendala splashcreen yang gambarnya tidak dapat muncul
+
+## IDENTITAS DIRI
+
+FARIS IKHLASUL HAQ
+TI 3A / 07
+1941720062
+
+## DOSEN PENGAMPU
+Dian Hanifudin Subhi, S.Kom., M.Kom.
+https://github.com/dhanifudin
 
 
-
-## Usage
-
-A few examples of useful commands and/or tasks.
-
-```
-$ First example
-$ Second example
-$ And keep this in mind
-```
-
-## Deployment
-
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
-
-### Server
-
-* Live:
-* Release:
-* Development:
-
-### Branches
-
-* Master:
-* Feature:
-* Bugfix:
-* etc...
-
-## Additional Documentation and Acknowledgments
-
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
+## JURUSAN TEKNOLOGI INFORMASI
+![](gif/JTI.PNG)
