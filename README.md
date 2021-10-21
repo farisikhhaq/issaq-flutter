@@ -6,10 +6,22 @@ Jadi ini merupakan sistem ya.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Demo
+## Demo Aplikasi GIF
+
+### Demo Sidebar Perpindahan Antar Page
+![](gif/sidebarcek11.gif)
+ ![](gif/sidebarcek22.gif)
+ ![](gif/sidebarcek33.gif)
+ ![](gif/sidebarcek44.gif)
+
+### List View Pada Page Artikel
 ![](gif/listcek1.gif)
-![](gif/listcek2.gif)
-![](gif/listcek3.gif)
+ ![](gif/listcek2.gif)
+ ![](gif/listcek3.gif)
+
+### List View Pada Page Artikel
+![](gif/listcekdoa11.gif)
+ ![](gif/listcekdoa22.gif)
 
 
 ### Prerequisites
