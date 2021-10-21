@@ -14,7 +14,7 @@ var tagLine = TextStyle(fontWeight: FontWeight.bold, fontSize: 10, fontFamily: '
 var listTitle = TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.grey[600], fontFamily: 'komik');
 
 
-Color purpleColor = Color(0xff54275E);
+Color purpleColor = Color(0xff7C7666);
 Color orangeColor = Color(0xffFEE1D3);
 
 double edge = 24;
