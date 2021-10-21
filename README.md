@@ -40,6 +40,7 @@ C:\src>flutter run
    ![](gif/sidebarcek33.gif)
    ![](gif/sidebarcek44.gif)
 
+    1                                    2                                3                                 4  
 ### List View Pada Page Artikel
 ![](gif/listcek1.gif)
    ![](gif/listcek2.gif)
