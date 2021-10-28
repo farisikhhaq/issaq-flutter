@@ -78,6 +78,9 @@ C:\src>flutter run
 1. Pembuatan Login dan Register yang masih tahap inprogress karena terjadi kesalahan pada saat pembuatan yaitu error AppMapDebug
 2. Kendala splashcreen yang gambarnya tidak dapat muncul
 
+## YOUTUBE LINK
+https://youtu.be/iu14uQHp7WQ
+
 ## IDENTITAS DIRI
 ```
 FARIS IKHLASUL HAQ
@@ -89,6 +92,7 @@ TI 3A / 07
 Dian Hanifudin Subhi, S.Kom., M.Kom.
 https://github.com/dhanifudin
 ```
-
 ## JURUSAN TEKNOLOGI INFORMASI
 ![](gif/JTI.png)
+
+
