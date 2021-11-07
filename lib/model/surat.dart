@@ -10,8 +10,8 @@ class Surat{
   Surah({this.nomor, this.nama, this.nama_latin, this.arti,
       this.jumlah_ayat, this.tempat_turun});
 
-  factory  Surah.fromJson(Map<String,dynamic> json){
-    return Surah(
+  factory  Surat.fromJson(Map<String,dynamic> json){
+    return Surat(
       nomor: json['nomor'],
       nama: json['nama'],
       nama_latin: json['nama_latin'],
