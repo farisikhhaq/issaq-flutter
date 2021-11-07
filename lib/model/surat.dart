@@ -7,7 +7,7 @@ class Surat{
   int? jumlah_ayat;
   String? tempat_turun;
 
-  Surah({this.nomor, this.nama, this.nama_latin, this.arti,
+  Surat({this.nomor, this.nama, this.nama_latin, this.arti,
       this.jumlah_ayat, this.tempat_turun});
 
   factory  Surat.fromJson(Map<String,dynamic> json){
