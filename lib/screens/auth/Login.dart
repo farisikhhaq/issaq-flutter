@@ -117,12 +117,11 @@ class _LoginState extends State<Login> {
   }
 
   void _loginHome() async {
-      setState(() {
+    setState(() {
       _isLoading = true;
     });
 
     if (_email.text == 'demo@gmail.com' && _password.text == '123123') {
-
       await Future.delayed(Duration(seconds: 2));
       Navigator.pushReplacement(
         context,

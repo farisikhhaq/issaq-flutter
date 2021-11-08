@@ -7,7 +7,7 @@ class ArtikelPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         drawer: NavigationDrawerWidget(),
         appBar: AppBar(
-         title: Text(
+          title: Text(
             'Artikel',
             style: TextStyle(fontFamily: 'sans-serif', color: Colors.black),
           ),
@@ -16,9 +16,8 @@ class ArtikelPage extends StatelessWidget {
         ),
         body: SingleChildScrollView(
           child: Column(
-            children: <Widget>[
-              ListArtikel()
-          ],),
+            children: <Widget>[ListArtikel()],
+          ),
         ),
       );
 }

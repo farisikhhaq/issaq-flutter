@@ -2,14 +2,11 @@ class ArtikelIslami {
   String title, author, date, image, description;
 
   ArtikelIslami(
-      {
-       required this.title, 
-       required this.author, 
-       required this.date, 
-       required this.image, 
-       required this.description
-        
-        });
+      {required this.title,
+      required this.author,
+      required this.date,
+      required this.image,
+      required this.description});
 }
 
 var dataArtikelIslam = [
@@ -18,7 +15,7 @@ var dataArtikelIslam = [
     author: 'Yulian Purnama, S.Kom',
     date: '2 Mei 2021',
     image:
-    'https://static.muslim.or.id/wp-content/uploads/2014/05/02-Fatwa-Ulama-Puasa-Rajab-810x500.png',
+        'https://static.muslim.or.id/wp-content/uploads/2014/05/02-Fatwa-Ulama-Puasa-Rajab-810x500.png',
     description: '  Fatwa Al Lajnah Ad Daimah Lil Buhuts Wal Ifta’ '
         '\nSoal: Puasa sunnah Rajab itu dianjurkan pada awal bulan, tengahnya atau akhirnya? '
         '\nJawab: Tidak ada hadits yang shahih yang khusus menyatakan adanya keutamaan puasa bulan Rajab selain hadits yang dikeluarkan oleh An Nasa-i dan Abu Daud, yang dishahihkan oleh Ibnu Khuzaimah, dari hadits Usamah, ia berkata: '
@@ -33,9 +30,9 @@ var dataArtikelIslam = [
       author: 'Abdullah Taslim, Lc, MA.',
       date: '13 Februari 2021',
       image:
-      'https://static.muslim.or.id/wp-content/uploads/2010/08/Berbenah-Diri-Menyambut-Bulan-Ramadhan-muslimorid-810x500.jpg',
+          'https://static.muslim.or.id/wp-content/uploads/2010/08/Berbenah-Diri-Menyambut-Bulan-Ramadhan-muslimorid-810x500.jpg',
       description:
-      ' Allah Ta’ala telah mengutamakan sebagian waktu (zaman) di atas sebagian lainnya, sebagaimana Dia mengutamakan sebagian manusia di atas sebagian lainnya dan sebagian tempat di atas tempat lainnya.'
+          ' Allah Ta’ala telah mengutamakan sebagian waktu (zaman) di atas sebagian lainnya, sebagaimana Dia mengutamakan sebagian manusia di atas sebagian lainnya dan sebagian tempat di atas tempat lainnya.'
           '\nAllah Ta’ala berfirman,وَرَبُّكَ يَخْلُقُ مَا يَشَاءُ وَيَخْتَارُ مَا كَانَ لَهُمُ الْخِيَرَةُ  '
           '\n“Dan Rabbmu menciptakan apa yang Dia kehendaki dan memilihnya, sekali-kali tidak ada pilihan bagi mereka” (QS al-Qashash:68). '
           '\nSyaikh ‘Abdur Rahman as-Sa’di ketika menafsirkan ayat di atas, beliau berkata, “(Ayat ini menjelaskan) menyeluruhnya ciptaan Allah bagi seluruh makhluk-Nya, berlakunya kehendak-Nya bagi semua ciptaan-Nya, dan kemahaesaan-Nya dalam memilih dan mengistimewakan apa (yang dikehendaki-Nya), baik itu manusia, waktu (jaman) maupun tempat”[1]. '
@@ -61,9 +58,9 @@ var dataArtikelIslam = [
       author: 'dr.Raehanul Bahraeni, M.Sc, Sp.PK',
       date: '25 Agutus 2021',
       image:
-      'https://static.muslim.or.id/wp-content/uploads/2021/02/20210214-Mengadu-Kepada-Allah-Bukan-Kepada-Makhluk-810x500.png',
+          'https://static.muslim.or.id/wp-content/uploads/2021/02/20210214-Mengadu-Kepada-Allah-Bukan-Kepada-Makhluk-810x500.png',
       description:
-      ' Salah satu pelajaran tauhid yang luar biasa adalah mengajarkan kita agar tidak mudah mengeluh atau curhat kepada manusia. Mengeluh dan curhat itu hanya kepada Allah Ta’ala. Sedangkan kepada manusia, itu lebih ke arah musyawarah dan diskusi mengenai masalah kita untuk mencari jalan keluar terbaik. Itu pun tidak semua manusia bisa diajak musyawarah dan diskusi, melainkan manusia yang berilmu serta mau membantu kita. '
+          ' Salah satu pelajaran tauhid yang luar biasa adalah mengajarkan kita agar tidak mudah mengeluh atau curhat kepada manusia. Mengeluh dan curhat itu hanya kepada Allah Ta’ala. Sedangkan kepada manusia, itu lebih ke arah musyawarah dan diskusi mengenai masalah kita untuk mencari jalan keluar terbaik. Itu pun tidak semua manusia bisa diajak musyawarah dan diskusi, melainkan manusia yang berilmu serta mau membantu kita. '
           '\nSalah satu contoh mengadu kepada Allah Ta’ala adalah sebagaimana yang dilakukan oleh Nabi Ya’qub ‘alaihis salaam. Beliau berkata dan tertulis dalam Al-Qur’an, إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ '
           '\n“Sesungguhnya hanyalah kepada Allah aku mengadukan kesusahan dan kesedihanku” (QS. Yusuf: 86). Ibnul Jauzi Rahimahullah menjelaskan bahwa mengeluh kepada makhluk adalah suatu hal yang dibenci. Beliau rahimahullah berkata, وقد كان السَّلَفُ يكرهون الشَّكوَى إِلَى الخَلقِ. وَالشَّكوَى وَإِن كان فيها رَاحَةٌ إِلا أَنَّـهَا تَدُلُّ عَلَىٰ ضَـعـفٍ وَذُلٍّ. وَالصَّبرُ عنها دَلِيلٌ عَلَى قُـوَّةٍ وَعِزٍّ. '
           '“Para salaf membenci mengeluh kepada makhluk, meski ketika mengeluh tersebut mendatangkan ketenangan. Hal tersebut menunjukkan lemahnya iman dan kerendahan. Bersabar atas musibah menunjukkan kuatnya iman dan kemuliaan seseorang” (Ats-Tsabaat ‘Inda Al-Mamat, hal. 55). '
@@ -87,8 +84,10 @@ var dataArtikelIslam = [
     title: 'Tidak Boleh Sembarangan Mengkafirkan Seseorang ',
     author: 'Dr.Andy Octavian Latief, M.Sc',
     date: '12 Maret 2021',
-    image: 'https://static.muslim.or.id/wp-content/uploads/2021/02/20210213-Tidak-Boleh-Sembarangan-Mengkafirkan-Seseorang-810x500.png',
-    description: '  Di antara akidah ahlussunnah waljama’ah adalah membedakan antara takfīr muṭlaq dan takfīr mu’ayyan. Pertama: al-Takfīr al-Muṭlaq (التكفير المطلق), yaitu menjatuhkan vonis kekufuran kepada suatu keyakinan, ucapan, atau perbuatan yang merupakan pembatal keislaman, atau menjatuhkan vonis kafir kepada pelakunya secara umum tanpa menunjuk pada orang tertentu.'
+    image:
+        'https://static.muslim.or.id/wp-content/uploads/2021/02/20210213-Tidak-Boleh-Sembarangan-Mengkafirkan-Seseorang-810x500.png',
+    description:
+        '  Di antara akidah ahlussunnah waljama’ah adalah membedakan antara takfīr muṭlaq dan takfīr mu’ayyan. Pertama: al-Takfīr al-Muṭlaq (التكفير المطلق), yaitu menjatuhkan vonis kekufuran kepada suatu keyakinan, ucapan, atau perbuatan yang merupakan pembatal keislaman, atau menjatuhkan vonis kafir kepada pelakunya secara umum tanpa menunjuk pada orang tertentu.'
         '\nContoh:Menyembah berhala adalah kekufuran,Membenci syariat Allah Ta’ala dan tuntunan Nabi-Nya ṣhallallāhu ‘alaihi wa sallam adalah kekufuran,Barangsiapa yang meyakini bahwa shalat itu tidak wajib atau zina itu tidak haram, maka dia kafir.'
         '\nKedua: al-Takfīr al-Mu’ayyan (التكفير المعين), yaitu menjatuhkan vonis kafir kepada seseorang tertentu karena dia telah melakukan suatu pembatal keislaman.'
         '\nContoh: Si Fulan itu kafir.Takfīr mu’ayyan tidak boleh diarahkan kepada seseorang kecuali jika telah terpenuhi syarat-syarat dan hilang penghalang-penghalang dari pengkafirannya. Oleh karena itu, yang hanya boleh melakukan takfīr mu’ayyan adalah para ulama’ besar atau mufti yang telah mengetahui apakah si Fulan yang melakukan pembatal keislaman tersebut telah terpenuhi syarat atau hilang penghalang dari kekafirannya.'
@@ -102,8 +101,10 @@ var dataArtikelIslam = [
     title: 'Contoh Syirik Akbar dalam Tauhid Rububiyyah',
     author: 'Dr. Andy Octavian Latief, M.Sc.',
     date: '24 Agustus 2021',
-    image: 'https://static.muslim.or.id/wp-content/uploads/2021/02/20210210-Contoh-Syirik-Akbar-Dalam-Tauhid-Rububiyah-810x500.png',
-    description: 'Di antara bentuk syirik akbar dalam rububiyyah adalah:Pertama: Tidak meyakini bahwa Allah itu ada, sebagaimana yang dilakukan oleh orang-orang ateis.Allah Subhanahu wa Ta’ala berfirman,وَقَالُوا مَا هِيَ إِلَّا حَيَاتُنَا الدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا يُهْلِكُنَا إِلَّا الدَّهْرُ '
+    image:
+        'https://static.muslim.or.id/wp-content/uploads/2021/02/20210210-Contoh-Syirik-Akbar-Dalam-Tauhid-Rububiyah-810x500.png',
+    description:
+        'Di antara bentuk syirik akbar dalam rububiyyah adalah:Pertama: Tidak meyakini bahwa Allah itu ada, sebagaimana yang dilakukan oleh orang-orang ateis.Allah Subhanahu wa Ta’ala berfirman,وَقَالُوا مَا هِيَ إِلَّا حَيَاتُنَا الدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا يُهْلِكُنَا إِلَّا الدَّهْرُ '
         '\n“Mereka berkata, ‘Kehidupan ini tidak lain hanyalah kehidupan di dunia saja. Kita mati dan kita hidup dan tidak ada yang akan membinasakan kita selain masa’” (QS. al-Jatsiyah: 24).'
         '\nKedua: Meyakini tritunggal atau trinitas, sebagaimana yang dilakukan oleh orang-orang Nasrani, yaitu meyakini bahwa Tuhan itu satu tetapi memiliki tiga pribadi: Tuhan Bapa, Tuhan Putra, dan Roh Kudus. Ketiganya itu sama secara esensi dan kedudukan (Bapa sama dengan Putra, dan keduanya sama dengan Roh Kudus), tetapi sebenarnya berbeda satu sama lain (Bapa adalah yang beranak, Putra adalah yang diperanakkan, dan Roh Kudus adalah yang dihembuskan).'
         '\nAllah Subhanahu wa Ta’ala berfirman,لَّقَدْ كَفَرَ الَّذِينَ قَالُوا إِنَّ اللَّـهَ ثَالِثُ ثَلَاثَةٍ ۘ وَمَا مِنْ إِلَـٰهٍ إِلَّا إِلَـٰهٌ وَاحِدٌ “Sesungguhnya telah kafirlah orang-orang yang berkata, ‘Sungguh Allah itu salah satu dari yang tiga.’ Padahal sekali-kali tidak ada tuhan yang berhak diibadahi selain Tuhan yang Satu” (QS. al-Ma’idah: 73).وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ * لَمْ يَلِدْ وَلَمْ يُولَدْ *  اللَّـهُ الصَّمَدُ *قُلْ هُوَ اللَّـهُ أَحَدٌ * '
@@ -118,8 +119,10 @@ var dataArtikelIslam = [
     title: 'Untaian Hikmah Imam Hasan al-Bashri',
     author: 'Ari Wahyudi, S.Si.',
     date: '24 Desember 2021',
-    image: 'https://static.muslim.or.id/wp-content/uploads/2021/02/20210207-Untaian-Hikmah-Imam-Hasan-al-Bashri-810x500.png',
-    description: 'Hasan al-Bashri adalah diantara pembesar ulama tabi’in menengah. Beliau wafat pada tahun 110 H dalam usia 88 tahun, sebagaimana disebutkan oleh Imam Ibnu Abdil Hadi Rahimahullāh (lihat Thabaqāt ‘Ulamā’ al-Hadits, Juz 1 hal. 140-142). Abu Burdah berkata, “Tidaklah aku melihat orang yang lebih mirip dengan para sahabat Muhammad Shallallāhu ‘alaihi wa sallam melebihi dirinya.” (lihat Min A’lām al-Salaf, Juz 1 hal. 143), Abu Ja’far Muhammad bin ‘Ali mengatakan, “Dia itulah -Hasan al-Bashri- orang yang ucapan-ucapannya mirip ucapan para nabi” (lihat Min A’lām al-Salaf, Juz 1 hal. 144).Guru dan murid beliau'
+    image:
+        'https://static.muslim.or.id/wp-content/uploads/2021/02/20210207-Untaian-Hikmah-Imam-Hasan-al-Bashri-810x500.png',
+    description:
+        'Hasan al-Bashri adalah diantara pembesar ulama tabi’in menengah. Beliau wafat pada tahun 110 H dalam usia 88 tahun, sebagaimana disebutkan oleh Imam Ibnu Abdil Hadi Rahimahullāh (lihat Thabaqāt ‘Ulamā’ al-Hadits, Juz 1 hal. 140-142). Abu Burdah berkata, “Tidaklah aku melihat orang yang lebih mirip dengan para sahabat Muhammad Shallallāhu ‘alaihi wa sallam melebihi dirinya.” (lihat Min A’lām al-Salaf, Juz 1 hal. 143), Abu Ja’far Muhammad bin ‘Ali mengatakan, “Dia itulah -Hasan al-Bashri- orang yang ucapan-ucapannya mirip ucapan para nabi” (lihat Min A’lām al-Salaf, Juz 1 hal. 144).Guru dan murid beliau'
         'Berikut ini sebagian guru-guru Hasan al-Bashri: ‘Imran bin Hushain, al-Mughirah bin Syu’bah, Abu Bakrah, an-Nu’man bin Basyir, Ibnu ‘Abbas, Ibnu ‘Umar, Abdullah bin ‘Amr, Abu Hurairah, Anas bin Malik, dsb. (lihat Min A’lām al-Salaf, Juz 1 hal. 150).'
         'Berikut ini sebagian murid-murid beliau: Humaid ath-Thawil, Ayyub as-Sakhtiyani, Qotadah, Bakr bin Abdullah al-Muzani, Sa’ad bin Ibrahim, Ibnu ‘Aun, al-Mu’alla bin Ziyad, Yunus bin ‘Ubaid, dsb (lihat Min A’lām al-Salaf, Juz 1 hal. 150).Sebagian nasihat dan mutiara hikmah beliau'
         'Hasan al-Bashri rahimahullāh berkata, “Benar-benar ada dahulu seorang lelaki yang memilih waktu tertentu untuk menyendiri, menunaikan sholat dan menasehati keluarganya pada waktu itu, lalu dia berpesan: Jika ada orang yang mencariku, katakanlah kepadanya bahwa ‘dia sedang ada keperluan’.” (lihat al-Ikhlās wa al-Niyyah, hal.65)'
@@ -139,8 +142,10 @@ var dataArtikelIslam = [
     title: 'Perbedaan Antar Madzhab',
     author: 'Fauzan Hidayat',
     date: '11 Jnauari 2021',
-    image: 'https://static.muslim.or.id/wp-content/uploads/2021/02/20210206-Perbedaan-Antar-Madzhab-1-810x500.png',
-    description: 'Fatwa Syaikh Abdul Aziz bin Baaz Rahimahullah \nPertanyaan: Apakah perbedaan antar mazhab yang empat? Adakah mazhab yang lebih baik dari yang lain?'
+    image:
+        'https://static.muslim.or.id/wp-content/uploads/2021/02/20210206-Perbedaan-Antar-Madzhab-1-810x500.png',
+    description:
+        'Fatwa Syaikh Abdul Aziz bin Baaz Rahimahullah \nPertanyaan: Apakah perbedaan antar mazhab yang empat? Adakah mazhab yang lebih baik dari yang lain?'
         'Jawaban: Semua mazhab yang empat menginginkan kebenaran. Mazhab Syafi’i, Maliki, Hanbali, dan Hanafi Rahimahumullah semuanya bertujuan mengikuti kebenaran sesuai petunjuk Alquran dan sunah Rasulullah Shallahu ‘alaihi wa sallam. Akan tetapi, sikap ta’ashub (fanatik terhadap mazhab tertentu -pent.) merupakan perbuatan yang tercela.'
         'Adapun mazhab lain yang masyhur dikenal selain 4 mazhab ini adalah mazhab az-Dzahiri. Begitu pula dikenal mazhab yang lain seperti al-Jaririyyah, al-Laitsiyyah, al-Sauriyah (yang merupakan pengikut Sufyan at-Tsauri dan pengikut al-Laits ibn Jarir), juga mazhab ar-Rahawiyyah (namun saat ini tidak ada lagi) yang merupakan pengikut Ishaq bin Rahawiyyah.'
         'Bagaimanapun, yang terpenting dalam bermazhab adalah mengikuti kebenaran. Mazhab yang empat, mazhab az-Zahiriyyah serta mazhab-mazhab sebelumnya (yang tidak lagi menjadi rujukan); semuanya bertujuan untuk mengikuti kebenaran. Kadangkala masing-masing mazhab berbeda pendapat tentang suatu perkara agama. Perbedaan yang alot namun sarat hikmah tersebut disebabkan karena semuanya merujuk pada dalil Alquran dan Assunah sehingga pada akhirnya mazhab-mazhab ini dikenal oleh umat di dunia. Bertambahlah pengikut masing-masing mazhab tersebut yang kemudian populer dalam beberapa perkara agama.'
@@ -151,8 +156,10 @@ var dataArtikelIslam = [
     title: 'Menyebut Non Muslim sebagai Saudara',
     author: 'Muhammad Fadli, ST.',
     date: '23 September 2021',
-    image: 'https://static.muslim.or.id/wp-content/uploads/2021/02/20210204-Menyebut-Non-Muslim-sebagai-Saudara-810x500.png',
-    description: 'Fatwa Syekh Abdul Aziz bin Baz Rahimahullah Ta’ala. Pertanyaan: Seorang teman yang beragama Kristen tinggal bersamaku dan dia memanggilku dengan sebutan “saudaraku” dan dia juga mengatakan “kita adalah saudara”. Dia makan dan minum bersama kami. Apakah hal ini dibolehkan ataukah tidak?'
+    image:
+        'https://static.muslim.or.id/wp-content/uploads/2021/02/20210204-Menyebut-Non-Muslim-sebagai-Saudara-810x500.png',
+    description:
+        'Fatwa Syekh Abdul Aziz bin Baz Rahimahullah Ta’ala. Pertanyaan: Seorang teman yang beragama Kristen tinggal bersamaku dan dia memanggilku dengan sebutan “saudaraku” dan dia juga mengatakan “kita adalah saudara”. Dia makan dan minum bersama kami. Apakah hal ini dibolehkan ataukah tidak?'
         '\nJawaban:Seorang muslim bukanlah saudara bagi orang kafir. Allah Subhanahu wa ta’ala berfirman,إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌ  “Sesungguhnya orang-orang beriman itu bersaudara” (QS. Al-Hujurat [49]: 10). Nabi Shallallahu ‘alaihi wa sallam bersabda,اَلْمُسْلِمُ أَخُو الْمُسْلِمُ'
         '“Seorang Muslim adalah saudara bagi Muslim lainnya” (HR. Al-Bukhari [2: 98], Abu Dawud [4893], At-Tirmidzi [1: 268], Ahmad [2: 91], dari ‘Abdullah bin ‘Umar Radhiyallahu ‘anhu). Maka seorang kafir, baik itu Yahudi, Nasrani, penganut paganisme (penyembah berhala), Majusi, Komunis, atau yang lainnya, bukanlah saudara bagi seorang Muslim. Tidak boleh menjadikan mereka sebagai sahabat dekat atau teman dekat. Adapun sekedar makan bersamanya di beberapa kesempatan insidental, tanpa menjadikannya seorang sahabat dekat atau teman dekat, hanya seperti pada jamuan umum atau sama-sama hadir di acara makan-makan, maka hal itu tidak mengapa.'
         'Adapun menjadikan mereka sebagai sahabat dekat, teman duduk, dan teman makan, maka ini tidak boleh. Karena Allah Ta’ala telah memutus muwalah (loyalitas) dan rasa cinta antara kaum Muslimin dan kaum kafir. Allah Subhanahu wa ta’ala berfirman dalam Al-Qur’an Al-‘Azhim, قَدْ كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِي إِبْرَاهِيمَ وَالَّذِينَ مَعَهُ إِذْ قَالُوا لِقَوْمِهِمْ إِنَّا بُرَآءُ مِنْكُمْ وَمِمَّا تَعْبُدُونَ مِنْ دُونِ اللَّهِ كَفَرْنَا بِكُمْ وَبَدَا بَيْنَنَا وَبَيْنَكُمُ الْعَدَاوَةُ وَالْبَغْضَاءُ أَبَدًا حَتَّى تُؤْمِنُوا بِاللَّهِ وَحْدَهُ “Sungguh telah ada bagi kalian uswah hasanah (suri tauladan yang baik) di dalam diri Ibrahim dan orang-orang yang bersamanya, ketika mereka berkata kepada kaum mereka, ‘Sesungguhnya kami berlepas diri dari kalian dan dari semua yang kalian sembah selain dari Allah.'
@@ -166,8 +173,10 @@ var dataArtikelIslam = [
     title: 'Nasihat Bagi yang Terjerumus dalam Kesyirikan',
     author: 'Fauzan Hidayat',
     date: '4 Oktober 2021',
-    image: 'https://static.muslim.or.id/wp-content/uploads/2021/01/20210131-Nasihat-Bagi-Yang-Terjerumus-dalam-Kesyirikan-810x500.png',
-    description: 'Fatwa Syaikh Muhammad Ali Farkus \nPertanyaan:Banyak dari ikhwan kita yang menghadapi permasalahan dengan ayah atau ibu, paman atau bibi, dan orang-orang terdekat mereka yang terjerumus ke dalam praktek kesyirikan dengan melakukan ritual-ritual ibadah kepada selain Allah, seperti berdoa, ber-istighotsah, bertawakal bahkan sampai mencela Allah Ta’ala dan agama-Nya. Sementara sebagian besar mereka menolak untuk dinasihati. Mohon nasihatnya atas cobaan yang berat yang menimpa saudara kita dan keluarganya ini. Jazakallah khairan. Jawaban:'
+    image:
+        'https://static.muslim.or.id/wp-content/uploads/2021/01/20210131-Nasihat-Bagi-Yang-Terjerumus-dalam-Kesyirikan-810x500.png',
+    description:
+        'Fatwa Syaikh Muhammad Ali Farkus \nPertanyaan:Banyak dari ikhwan kita yang menghadapi permasalahan dengan ayah atau ibu, paman atau bibi, dan orang-orang terdekat mereka yang terjerumus ke dalam praktek kesyirikan dengan melakukan ritual-ritual ibadah kepada selain Allah, seperti berdoa, ber-istighotsah, bertawakal bahkan sampai mencela Allah Ta’ala dan agama-Nya. Sementara sebagian besar mereka menolak untuk dinasihati. Mohon nasihatnya atas cobaan yang berat yang menimpa saudara kita dan keluarganya ini. Jazakallah khairan. Jawaban:'
         'Alhamdulillah, segala puji bagi Allah, Rabb Semesta Alam. Selawat dan salam semoga senantiasa tercurahkan atas utusan Allah -Nabi Muhammad Shallallahu ‘alaihi wa sallam– rahmat bagi semesta alam. Juga atas para sahabat dan keluarganya hingga hari akhir.Allah Ta’ala murka kepada pelaku kesyirikan dan Allah perintahkan kepada hamba-Nya untuk berlepas diri dari mereka serta tiada hak bagi mereka untuk mendapatkan mahabbah (rasa cinta) dan kesetiaan. Sebab akidah al-wala’ wal bara’ merupakan pondasi iman yang paling pokok bagi seorang muslim dan menjadi syarat kesempurnaan syahadat yang menyatukan hati muslimin. '
         'Sebagaimana firman Allah Ta’ala,لَا تَجِدُ قَوْمًا يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ يُوَادُّونَ مَنْ حَادَّ اللَّهَ وَرَسُولَهُ وَلَوْ كَانُوا آبَاءَهُمْ أَوْ أَبْنَاءَهُمْ أَوْ إِخْوَانَهُمْ أَوْ عَشِيرَتَهُمْ ۚ “Kamu tidak akan mendapati kaum yang beriman kepada Allah dan hari akhirat, saling berkasih-sayang dengan orang-orang yang menentang Allah dan Rasul-Nya, sekalipun orang-orang itu adalah bapak-bapak, atau anak-anak, atau saudara-saudara ataupun keluarga mereka” (QS. al-Mujadilah: 22).Rasulullah Shallallahu ‘alaihi wasallam bersabda,لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى أَكُونَ أَحَبَّ إِلَيْهِ مِنْ وَالِدِهِ وَوَلَدِهِ وَالنَّاسِ أَجْمَعِينَ “Tidaklah (sempurna) iman salah seorang di antara kalian sehingga aku lebih dicintainya daripada orangtuanya, '
         'anaknya dan segenap umat manusia ”[1]. Allah Ta’ala juga telah memerintahkan Rasul-Nya untuk berlepas diri dari perbuatan keluarga atau saudara yang menentang perintah Allah Ta’ala. Sebagaimana firman-Nya, (وَأَنذِرۡ عَشِيرَتَكَ ٱلۡأَقۡرَبِينَ (٢١٤) وَٱخۡفِضۡ جَنَاحَكَ لِمَنِ ٱتَّبَعَكَ مِنَ ٱلۡمُؤۡمِنِينَ (٢١٥) فَإِنۡ عَصَوۡكَ فَقُلۡ إِنِّي بَرِيٓءٞ مِّمَّا تَعۡمَلُونَ(٢١٦ “Dan berilah peringatan kepada kerabat-kerabatmu (Muhammad) yang terdekat, dan rendahkanlah dirimu terhadap orang-orang yang beriman yang mengikutimu. Kemudian jika mereka mendurhakaimu, maka katakanlah (Muhammad), ‘Sesungguhnya aku tidak bertanggung jawab (berlepas diri) terhadap apa yang kamu kerjakan’” (QS. as-Syu’ara: 214-216).Akan tetapi, berlepas diri dari perbuatan buruk mereka tidak berarti bermaksud menyinggung perasaan mereka,baik dengan perkataan maupun perbuatan. Justru mengajak dan mendakwahkan mereka agar kembali ke jalan Allah merupakan kewajiban seorang muslim terhadap kerabat terdekatnya '
@@ -180,8 +189,10 @@ var dataArtikelIslam = [
     title: 'Ibnu Taimiyah dan Lisan Beliau yang Terjaga',
     author: 'Muhammad Nur Ichwan Muslim, ST.',
     date: '17 Agustus 2021',
-    image: 'https://static.muslim.or.id/wp-content/uploads/2021/01/20210122-Ibnu-Taimiyah-dan-Lisan-Beliau-yang-Terjaga-810x500.png',
-    description: 'Meski banyak orang, baik dari kalangan alim, qadhi, dan amir, yang memusuhi dan memprovokasi agar masyarakat membenci beliau, Syaikhul Islam Ibnu Taimiyah Rahimahullah berusaha menahan lisan beliau untuk tidak mencela kehormatan mereka dan hanya membalas jika mereka adalah ahli bidah yang menyeru kepada bidah yang mereka lakukan.Oleh karena itu, dalam karya beliau tidak ditemukan umpatan kepada seorang pun kecuali ada alasan tepat yang menuntut hal itu. Misalnya, orang tersebut membuat kedustaan atas diri beliau atau agama. Dalam hal itu, beliau pasti akan melakukan bantahan dan menjelaskan kesalahannya. Di saat yang sama, ulama yang berseberangan pendapat dengan beliau, terkadang begitu gampang menggunakan lisan mereka untuk mencela kehormatan, menuduh niat, dan menyalahkan akidah beliau, bahkan sampai pada taraf mengkafirkan dan menghalalkan darah Syaikhul Islam Ibnu Taimiyah Rahimahullah.'
+    image:
+        'https://static.muslim.or.id/wp-content/uploads/2021/01/20210122-Ibnu-Taimiyah-dan-Lisan-Beliau-yang-Terjaga-810x500.png',
+    description:
+        'Meski banyak orang, baik dari kalangan alim, qadhi, dan amir, yang memusuhi dan memprovokasi agar masyarakat membenci beliau, Syaikhul Islam Ibnu Taimiyah Rahimahullah berusaha menahan lisan beliau untuk tidak mencela kehormatan mereka dan hanya membalas jika mereka adalah ahli bidah yang menyeru kepada bidah yang mereka lakukan.Oleh karena itu, dalam karya beliau tidak ditemukan umpatan kepada seorang pun kecuali ada alasan tepat yang menuntut hal itu. Misalnya, orang tersebut membuat kedustaan atas diri beliau atau agama. Dalam hal itu, beliau pasti akan melakukan bantahan dan menjelaskan kesalahannya. Di saat yang sama, ulama yang berseberangan pendapat dengan beliau, terkadang begitu gampang menggunakan lisan mereka untuk mencela kehormatan, menuduh niat, dan menyalahkan akidah beliau, bahkan sampai pada taraf mengkafirkan dan menghalalkan darah Syaikhul Islam Ibnu Taimiyah Rahimahullah.'
         'Ibnu al-Qayyim Rahimahullah pernah mengatakan,  إني لكم مكانه ولا يكون لكم أمر تحتاجون فيه إلى مساعدة إلا وساعدتكم فيه ونحو هذا من الكلام فسروا به ودعوا له وعظموا هذه الحال منه وجئت يوما مبشرا له بموت أكبر أعدائه وأشدهم عداوة وأذى له فنهرني وتنكر لي واسترجع ثم قام من فوره إلى بيت أهله فعزاهم وقال : وما رأيته يدعو على أحد منهم قط وكان يدعو لهم. وددت أني لأصحابي مثله لأعدائه وخصومه.وكان بعض أصحابه الأكابر يقول : “Beberapa sahabat senior beliau (Ibnu Taimiyah) kerap berucap, ‘Aku berharap bisa bersikap dengan para sahabatku sebagaimana Ibnu Taimiyyah bersikap dengan musuh-musuhnya.’ Saya sama sekali tidak pernah melihat beliau mendoakan musuh agar tertimpa keburukan, bahkan beliau sering mendoakan agar mereka mendapatkan kebaikan,'
         'Suatu hari, aku menemui beliau untuk menyampaikan kabar gembira berupa meninggalnya musuh terbesar beliau, sekaligus orang yang paling memusuhi dan paling suka menyakiti beliau. Mendengar berita yang kusampaikan, beliau membentakku, menyalahkan sikapku, dan mengucapkan istirja’ (inna lillahi wa inna ilahi raji’un). Kemudian beliau bergegas pergi menuju rumah orang tersebut.'
         'Beliau lantas menghibur keluarga yang ditinggal mati. Bahkan beliau mengatakan, ‘Aku adalah pengganti beliau untuk kalian. Jika kalian memerlukan suatu bantuan, pasti aku akan membantu kalian’; dan ucapan semisal itu. Akhirnya mereka pun bergembira, mendoakan kebaikan untuk Ibnu Taimiyyah, dan sangat kagum dengan sikap Ibnu Taimiyyah tersebut” (Madaarij as-Salikin, 2: 345).Ibnu Taimiyah Rahimahullah adalah pribadi yang kerap memuji dan menyanjung ulama yang hidup sezaman dengan beliau. Beliau menggelari mereka dengan gelar yang sesuai dengan kedudukan mereka.Beliau Rahimahullah menyifati Taqiyuddin Ibnu Daqiq al-‘Ied Rahimahullah dengan sebutan seorang syekh di masa itu (Majmu’ al-Fatawa, 2: 244).Ibnu Taimiyah Rahimahullah menyifati Syekh Jamaluddin al-Maraghi Rahimahullah dengan sosok yang alim, arif, dan syekh di zaman itu (Majmu’ al-Fatawa, 2: 244).'

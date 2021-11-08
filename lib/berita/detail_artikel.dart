@@ -6,7 +6,7 @@ import '../utils/custom_color.dart';
 class DetailArtikel extends StatelessWidget {
   final ArtikelIslami artikelIslami;
 
-  const DetailArtikel({required this.artikelIslami}) ;
+  const DetailArtikel({required this.artikelIslami});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class DetailArtikel extends StatelessWidget {
                 ],
               ),
               Container(
-                margin: EdgeInsets.only(top: 10.0,left: 16),
+                margin: EdgeInsets.only(top: 10.0, left: 16),
                 child: Text(artikelIslami.title,
                     textAlign: TextAlign.start,
                     style: TextStyle(
@@ -35,19 +35,23 @@ class DetailArtikel extends StatelessWidget {
                         fontFamily: 'komik')),
               ),
               Container(
-                margin: EdgeInsets.only(top: 10.0,left: 16),
+                margin: EdgeInsets.only(top: 10.0, left: 16),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
                     Row(
                       children: <Widget>[
-                        Icon(Icons.schedule,  color: Colors.white,),
+                        Icon(
+                          Icons.schedule,
+                          color: Colors.white,
+                        ),
                         SizedBox(height: 4.0),
                         Padding(
                           padding: const EdgeInsets.all(4.0),
                           child: Text(
                             artikelIslami.date,
-                            style: TextStyle(fontFamily: 'komik', color: Colors.white),
+                            style: TextStyle(
+                                fontFamily: 'komik', color: Colors.white),
                           ),
                         )
                       ],
@@ -56,13 +60,17 @@ class DetailArtikel extends StatelessWidget {
                       padding: const EdgeInsets.only(left: 10),
                       child: Row(
                         children: <Widget>[
-                          Icon(Icons.perm_identity,color: Colors.white,),
+                          Icon(
+                            Icons.perm_identity,
+                            color: Colors.white,
+                          ),
                           SizedBox(height: 4.0),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               artikelIslami.author,
-                              style: TextStyle(fontFamily: 'komik',color: Colors.white),
+                              style: TextStyle(
+                                  fontFamily: 'komik', color: Colors.white),
                             ),
                           )
                         ],
@@ -80,8 +88,7 @@ class DetailArtikel extends StatelessWidget {
                       fontSize: 16.0, color: Colors.white, fontFamily: 'komik'),
                 ),
               ),
-            ]
-        ),
+            ]),
       ),
     );
   }

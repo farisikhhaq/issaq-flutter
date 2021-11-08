@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 /// Auth Title
@@ -52,23 +51,23 @@ Widget wGoogleSignIn({required Function onPressed}) {
 }
 
 Widget wTextLink(
-    {required String text, required String title,  required Function onTap}) {
+    {required String text, required String title, required Function onTap}) {
   return Container(
     margin: EdgeInsets.only(top: 40),
-    child: Row(children: <Widget>[
-      Text(text),
-      GestureDetector(
-          child: Container(
-            padding: EdgeInsets.all(10),
-            color: Colors.transparent,
-            child: Text(
-              title,
-              style: TextStyle(fontWeight: FontWeight.bold),
+    child: Row(
+      children: <Widget>[
+        Text(text),
+        GestureDetector(
+            child: Container(
+              padding: EdgeInsets.all(10),
+              color: Colors.transparent,
+              child: Text(
+                title,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
-          ),
-          onTap: onTap()
-      )
-    ],
+            onTap: onTap())
+      ],
     ),
   );
 }

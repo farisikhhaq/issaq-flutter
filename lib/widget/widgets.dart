@@ -10,7 +10,6 @@ Widget wAppLoading(BuildContext context) {
   );
 }
 
-
 /// Memasukkan Data atau Login
 Widget wInputSubmit(
     {required BuildContext context,

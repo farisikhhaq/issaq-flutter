@@ -8,11 +8,16 @@ Color backColor = Color(0xff7d2511);
 Color newColor2 = Color(0xffC382049);
 Color newColor3 = Color(0xff79708F);
 
-var styleTitle = TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, fontFamily: 'komik');
+var styleTitle =
+    TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, fontFamily: 'komik');
 var cardTitle = TextStyle(fontWeight: FontWeight.bold, fontFamily: 'komik');
-var tagLine = TextStyle(fontWeight: FontWeight.bold, fontSize: 10, fontFamily: 'komik');
-var listTitle = TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.grey[600], fontFamily: 'komik');
-
+var tagLine =
+    TextStyle(fontWeight: FontWeight.bold, fontSize: 10, fontFamily: 'komik');
+var listTitle = TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: 18,
+    color: Colors.grey[600],
+    fontFamily: 'komik');
 
 Color purpleColor = Color(0xff7C7666);
 Color orangeColor = Color(0xffFEE1D3);
@@ -24,10 +29,8 @@ TextStyle blackNormal = GoogleFonts.publicSans(
   color: Colors.black,
 );
 
-TextStyle whiteNormal = GoogleFonts.publicSans(
-  fontWeight: FontWeight.w500,
-  color: Colors.white
-);
+TextStyle whiteNormal =
+    GoogleFonts.publicSans(fontWeight: FontWeight.w500, color: Colors.white);
 
 TextStyle blackSemiBold = GoogleFonts.publicSans(
   fontWeight: FontWeight.w600,
@@ -53,5 +56,3 @@ TextStyle whitePoppins = GoogleFonts.poppins(
   fontWeight: FontWeight.w500,
   color: Colors.white,
 );
-
-

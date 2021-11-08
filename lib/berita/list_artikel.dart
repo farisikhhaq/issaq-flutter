@@ -72,14 +72,17 @@ class ListArtikel extends StatelessWidget {
                                 ),
                                 Row(
                                   children: [
-                                    Icon(Icons.schedule, size: 20,),
+                                    Icon(
+                                      Icons.schedule,
+                                      size: 20,
+                                    ),
                                     Text(
                                       place.date,
                                       style: TextStyle(
                                           fontFamily: 'komik', fontSize: 12),
                                     ),
                                     SizedBox(width: 10),
-                                    Icon(Icons.perm_identity,size: 20),
+                                    Icon(Icons.perm_identity, size: 20),
                                     Expanded(
                                       child: Text(
                                         place.author,

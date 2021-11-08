@@ -14,23 +14,21 @@ class _SplashState extends State<Splash> {
   void initState() {
     _checkUserSementara(false);
     super.initState();
-     
   }
+
   Widget build(BuildContext context) {
-   return Scaffold(
+    return Scaffold(
       body: Center(
-        child: wAppLoading(context)
-      ,),
+        child: wAppLoading(context),
+      ),
     );
   }
-   void _checkUserSementara(bool user) async{
 
-     await Future.delayed(Duration(seconds:2));
-    
-     //navigator
-     Navigator.pushReplacement(context, MaterialPageRoute(builder : (context) => user ? Home() : Login()));
-   
- } 
+  void _checkUserSementara(bool user) async {
+    await Future.delayed(Duration(seconds: 2));
 
+    //navigator
+    Navigator.pushReplacement(context,
+        MaterialPageRoute(builder: (context) => user ? Home() : Login()));
+  }
 }
-
