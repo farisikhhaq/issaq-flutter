@@ -13,7 +13,7 @@ class SuratListDetail extends StatefulWidget {
 }
 
 class _SuratListDetailState extends State<SuratListDetail> {
-  Future<List<SuratAyat>> _ayatList;
+  late Future<List<SuratAyat>> _ayatList;
 
   @override
   void initState() {
