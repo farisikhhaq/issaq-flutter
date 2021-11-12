@@ -15,7 +15,7 @@ class SuratAyat {
 
   factory SuratAyat.createSuratAyatData(Map<String, dynamic> json) {
     return SuratAyat(
-      ayatNumber: json['numberInSurat'].toString(),
+      ayatNumber: json['numberInSurah'].toString(),
       ayatText: json['text'],
       sajda: json['sajda'],
     );
