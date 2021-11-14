@@ -46,11 +46,11 @@ class _SuratListDetailState extends State<SuratListDetail> {
           padding: EdgeInsets.only(right: 12),
           decoration: BoxDecoration(
             border: Border(
-              right: BorderSide(width: 1, color: Colors.black),
+              right: BorderSide(width: 1, color: Colors.green),
             ),
           ),
           child: CircleAvatar(
-            backgroundColor: Colors.amberAccent,
+            backgroundColor: Colors.limeAccent[700],
             child: Text(
               '$ayatNumber',
               style: TextStyle(
@@ -64,11 +64,11 @@ class _SuratListDetailState extends State<SuratListDetail> {
           ayatText,
           style: TextStyle(fontSize: 24),
         ),
-        trailing: Icon(
-          Icons.keyboard_arrow_right,
-          color: Colors.white,
-          size: 30,
-        ),
+        // trailing: Icon(
+        //   Icons.keyboard_arrow_right,
+        //   color: Colors.black,
+        //   size: 30,
+        // ),
       );
 
   @override
@@ -79,7 +79,7 @@ class _SuratListDetailState extends State<SuratListDetail> {
           widget.suratName,
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.green,
       ),
       body: SafeArea(
         child: Center(
