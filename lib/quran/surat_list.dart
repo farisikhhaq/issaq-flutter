@@ -52,11 +52,11 @@ class _SuratListState extends State<SuratList> {
             ),
           ),
           child: CircleAvatar(
-            backgroundColor: Colors.amberAccent,
+            backgroundColor: Colors.limeAccent[700],
             child: Text(
               '$id',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
               ),
             ),
           ),
@@ -68,7 +68,7 @@ class _SuratListState extends State<SuratList> {
         subtitle: Text('$translate ($totalAyat ayat)'),
         trailing: Icon(
           Icons.keyboard_arrow_right,
-          color: Colors.amberAccent,
+          color: Colors.green,
           size: 30,
         ),
       );
