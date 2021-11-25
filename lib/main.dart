@@ -1,69 +1,93 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:issaq_pro/page/doa_page.dart';
-import 'package:issaq_pro/page/notifikasi_page.dart';
-import 'package:issaq_pro/page/sholat_page.dart';
-import 'package:issaq_pro/page/tambahan_page.dart';
-import 'package:provider/provider.dart';
-import 'package:issaq_pro/model/navigasi-item.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:issaq_pro/page/artikel-page.dart';
 import 'package:issaq_pro/page/quran-page.dart';
-import 'package:issaq_pro/page/header_page.dart';
-import 'package:issaq_pro/provider/navigation_provider.dart';
+import 'package:issaq_pro/page/doa_page.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:issaq_pro/%5Btidakdipakai%5D/sholat_page.dart';
+// import 'package:issaq_pro/page/class_two.dart';
+import 'package:issaq_pro/page/home_screen.dart';
 
-Future main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
-
+void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  static final String title = 'Navigation Drawer';
-
+  // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) => ChangeNotifierProvider(
-        create: (context) => NavigationProvider(),
-        child: MaterialApp(
-          debugShowCheckedModeBanner: false,
-          title: title,
-          theme: ThemeData(primarySwatch: Colors.deepOrange),
-          home: MainPage(),
-        ),
-      );
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: CurvedNavWidget(),
+    );
+  }
 }
 
-class MainPage extends StatefulWidget {
+class CurvedNavWidget extends StatefulWidget {
   @override
-  _MainPageState createState() => _MainPageState();
+  CurvedNavWidgetState createState() => CurvedNavWidgetState();
 }
 
-class _MainPageState extends State<MainPage> {
-  @override
-  Widget build(BuildContext context) => buildPages();
+class CurvedNavWidgetState extends State<CurvedNavWidget> {
+  int pageIndex = 1;
+  GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
-  Widget buildPages() {
-    final provider = Provider.of<NavigationProvider>(context);
-    final navigationItem = provider.navigationItem;
+  //Create All The Pages
+  final ArtikelPage _classOne = ArtikelPage();
+  final HomeScreen _classTwo = HomeScreen();
+  final QuranPage _classThree = QuranPage();
 
-    switch (navigationItem) {
-      case NavigationItem.header:
-        return HeaderPage();
-      case NavigationItem.quran:
-        return QuranPage();
-      case NavigationItem.artikel:
-        return ArtikelPage();
-      case NavigationItem.sholat:
-        return WorkflowPage();
-      case NavigationItem.doa:
-        return DoaPage();
-      case NavigationItem.tambahan:
-        return PluginsPage();
-      case NavigationItem.notifikasi:
-        return NotificationsPage();
+  Widget _showPage = new HomeScreen();
+
+  Widget _pageChooser(int page) {
+    switch (page) {
+      case 0:
+        return _classOne;
+      case 1:
+        return _classTwo;
+      case 2:
+        return _classThree;
+      default:
+        return new Container(
+          child: Center(
+            child: new Text(
+              'No Page Found!',
+              style: TextStyle(fontSize: 30.0),
+            ),
+          ),
+        );
     }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      extendBody: true,
+      bottomNavigationBar: CurvedNavigationBar(
+        key: _bottomNavigationKey,
+        index: pageIndex,
+        height: 60.0,
+        items: <Widget>[
+          Icon(Icons.copy_outlined, size: 30),
+          Icon(Icons.home, size: 30),
+          //Icon(Icons.call_split, size: 30),
+          Icon(Icons.book, size: 30),
+        ],
+        color: Colors.white,
+        buttonBackgroundColor: Colors.white,
+        //backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.transparent,
+        animationCurve: Curves.easeInOut,
+        animationDuration: Duration(milliseconds: 600),
+        onTap: (int tappedIndex) {
+          setState(() {
+            _showPage = _pageChooser(tappedIndex);
+          });
+        },
+        letIndexChange: (index) => true,
+      ),
+      body: _showPage,
+    );
   }
 }
