@@ -65,83 +65,114 @@ class HomeScreen extends StatelessWidget {
                           color: orangeColor,
                           borderRadius:
                               BorderRadius.only(topRight: Radius.circular(80))),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          SizedBox(
-                            height: 16,
+                      child: SingleChildScrollView(
+                        child: SafeArea(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              SizedBox(
+                                height: 16,
+                              ),
+                              Container(
+                                margin: EdgeInsets.only(left: 150),
+                                child: Text(
+                                  'Homepage',
+                                  style: blackNormal.copyWith(fontSize: 24),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => DoaPage()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Jadwal Sholat',
+                                  img: 'assets/img_1.png',
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => DoaPage()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Doa Harian',
+                                  img: 'assets/img_2.png',
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => DoaPage()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Wish List Hafalan',
+                                  img: 'assets/img_3.png',
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => DoaPage()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Dzikir Pagi Petang',
+                                  img: 'assets/img_4.png',
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => DoaPage()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Dzikir Counter',
+                                  img: 'assets/img_5.png',
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => DoaPage()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Video Ceramah',
+                                  img: 'assets/img_6.png',
+                                ),
+                              ),
+                            ],
                           ),
-                          Container(
-                            margin: EdgeInsets.only(left: 150),
-                            child: Text(
-                              'Homepage',
-                              style: blackNormal.copyWith(fontSize: 24),
-                            ),
-                          ),
-                          SizedBox(
-                            height: 16,
-                          ),
-                          InkWell(
-                            onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) =>
-                                          DoaPage()));
-                            },
-                            child: ItemMenu(
-                              title: 'Jadwal Sholat',
-                              img: 'assets/img_1.png',
-                            ),
-                          ),
-                          SizedBox(
-                            height: 16,
-                          ),
-                          InkWell(
-                            onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => DoaPage()));
-                            },
-                            child: ItemMenu(
-                              title: 'Doa Harian',
-                              img: 'assets/img_2.png',
-                            ),
-                          ),
-                          SizedBox(
-                            height: 16,
-                          ),
-                          InkWell(
-                            onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) =>
-                                          DoaPage()));
-                            },
-                            child: ItemMenu(
-                              title: 'Wish List Hafalan',
-                              img: 'assets/img_3.png',
-                            ),
-                          ),
-                          SizedBox(
-                            height: 16,
-                          ),
-                          InkWell(
-                            onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) =>
-                                          DoaPage()));
-                            },
-                            child: ItemMenu(
-                              title: 'Dzikir Pagi Petang',
-                              img: 'assets/img_4.png',
-                            ),
-                          )
-                        ],
+                        ),
                       ),
                     ),
                   )
