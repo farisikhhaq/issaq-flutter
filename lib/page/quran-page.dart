@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/quran/surat_list.dart';
+import 'package:issaq_pro/theme.dart';
 
 class QuranPage extends StatelessWidget {
   @override
@@ -8,7 +9,7 @@ class QuranPage extends StatelessWidget {
         appBar: AppBar(
           title: Text('Quran'),
           centerTitle: true,
-          backgroundColor: Colors.green,
+          backgroundColor: greenColor1,
         ),body:Container(child:SuratList())
       );
 }
