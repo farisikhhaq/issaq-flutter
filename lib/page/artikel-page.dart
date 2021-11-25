@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/berita/list_artikel.dart';
+import 'package:issaq_pro/theme.dart';
 
 class ArtikelPage extends StatelessWidget {
   @override
@@ -8,10 +9,10 @@ class ArtikelPage extends StatelessWidget {
         appBar: AppBar(
           title: Text(
             'Artikel',
-            style: TextStyle(fontFamily: 'sans-serif', color: Colors.black),
+            style: TextStyle(fontFamily: 'sans-serif', color: Colors.white),
           ),
           centerTitle: true,
-          backgroundColor: Colors.deepOrange[400],
+          backgroundColor: greenColor1,
         ),
         body: SingleChildScrollView(
           child: Column(
