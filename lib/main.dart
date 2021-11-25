@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:issaq_pro/theme.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:issaq_pro/page/artikel-page.dart';
 import 'package:issaq_pro/page/quran-page.dart';
@@ -73,8 +74,8 @@ class CurvedNavWidgetState extends State<CurvedNavWidget> {
           //Icon(Icons.call_split, size: 30),
           Icon(Icons.book, size: 30),
         ],
-        color: Colors.white,
-        buttonBackgroundColor: Colors.white,
+        color: orangeColor,
+        buttonBackgroundColor: greenColor1,
         //backgroundColor: Colors.blueAccent,
         backgroundColor: Colors.transparent,
         animationCurve: Curves.easeInOut,
