@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
                   Flexible(
                       flex: 1,
                       child: Container(
-                        color: purpleColor,
+                        color: greenColor,
                       ))
                 ],
               ),
@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                     flex: 1,
                     child: Container(
                       decoration: BoxDecoration(
-                          color: purpleColor,
+                          color: greenColor,
                           borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(80))),
                       child: Row(
@@ -74,9 +74,9 @@ class HomeScreen extends StatelessWidget {
                                 height: 16,
                               ),
                               Container(
-                                margin: EdgeInsets.only(left: 150),
+                                margin: EdgeInsets.only(left: 127),
                                 child: Text(
-                                  'Homepage',
+                                  'Menu Utama',
                                   style: blackNormal.copyWith(fontSize: 24),
                                 ),
                               ),
@@ -198,7 +198,7 @@ class ItemMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          color: purpleColor, borderRadius: BorderRadius.circular(15)),
+          color: greenColor, borderRadius: BorderRadius.circular(15)),
       height: 80,
       margin: EdgeInsets.only(left: edge, right: 24),
       padding: EdgeInsets.all(8),
