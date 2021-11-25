@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/artikel_islami.dart';
 import 'package:issaq_pro/utils/custom_color.dart';
-
 import 'detail_artikel.dart';
+import 'package:issaq_pro/theme.dart';
 
 class ListArtikel extends StatelessWidget {
   @override
@@ -38,7 +38,7 @@ class ListArtikel extends StatelessWidget {
                             }));
                   },
                   child: Card(
-                    color: Colors.redAccent[100],
+                    color: greenColor,
                     elevation: 2.0,
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -79,7 +79,7 @@ class ListArtikel extends StatelessWidget {
                                     Text(
                                       place.date,
                                       style: TextStyle(
-                                          fontFamily: 'komik', fontSize: 12),
+                                          fontFamily: 'komik', fontSize: 12, color: Colors.white),
                                     ),
                                     SizedBox(width: 10),
                                     Icon(Icons.perm_identity, size: 20),
@@ -87,7 +87,7 @@ class ListArtikel extends StatelessWidget {
                                       child: Text(
                                         place.author,
                                         style: TextStyle(
-                                            fontFamily: 'komik', fontSize: 12),
+                                            fontFamily: 'komik', fontSize: 12, color: Colors.white),
                                       ),
                                     ),
                                   ],
@@ -98,7 +98,7 @@ class ListArtikel extends StatelessWidget {
                                 Text(
                                   place.description,
                                   maxLines: 2,
-                                  style: TextStyle(fontFamily: 'komik'),
+                                  style: TextStyle(fontFamily: 'komik', color: Colors.white),
                                 ),
                               ],
                             ),
