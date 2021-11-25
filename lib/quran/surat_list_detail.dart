@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/surat_ayat_model.dart';
+import 'package:issaq_pro/theme.dart';
 
 class SuratListDetail extends StatefulWidget {
   final String suratId;
@@ -50,7 +51,7 @@ class _SuratListDetailState extends State<SuratListDetail> {
             ),
           ),
           child: CircleAvatar(
-            backgroundColor: Colors.limeAccent[700],
+            backgroundColor: greenColor1,
             child: Text(
               '$ayatNumber',
               style: TextStyle(
@@ -79,7 +80,7 @@ class _SuratListDetailState extends State<SuratListDetail> {
           widget.suratName,
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.green,
+        backgroundColor: greenColor1,
       ),
       body: SafeArea(
         child: Center(

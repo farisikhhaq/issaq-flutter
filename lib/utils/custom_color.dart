@@ -4,12 +4,12 @@ import 'package:google_fonts/google_fonts.dart';
 Color toscaColor = Color(0xfff26363);
 Color lightToscaColor = Color(0xff5daecd);
 Color darkToscaColor = Color(0xff00536e);
-Color backColor = Color(0xff7d2511);
+Color backColor = Color(0xffFEE1D3);
 Color newColor2 = Color(0xffC382049);
 Color newColor3 = Color(0xff79708F);
 
 var styleTitle =
-    TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, fontFamily: 'komik');
+    TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, fontFamily: 'komik', color: Colors.white);
 var cardTitle = TextStyle(fontWeight: FontWeight.bold, fontFamily: 'komik');
 var tagLine =
     TextStyle(fontWeight: FontWeight.bold, fontSize: 10, fontFamily: 'komik');

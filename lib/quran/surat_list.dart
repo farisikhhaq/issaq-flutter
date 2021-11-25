@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/surat_model.dart';
 import 'package:issaq_pro/quran/surat_list_detail.dart';
+import 'package:issaq_pro/theme.dart';
 
 class SuratList extends StatefulWidget {
   @override
@@ -52,7 +53,7 @@ class _SuratListState extends State<SuratList> {
             ),
           ),
           child: CircleAvatar(
-            backgroundColor: Colors.limeAccent[700],
+            backgroundColor: greenColor1,
             child: Text(
               '$id',
               style: TextStyle(
