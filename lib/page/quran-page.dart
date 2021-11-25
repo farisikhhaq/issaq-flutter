@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:issaq_pro/widget/navigation_drawer_widget.dart';
 import 'package:issaq_pro/quran/surat_list.dart';
-import 'package:issaq_pro/quran/surat_list_detail.dart';
 
 class QuranPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
-        drawer: NavigationDrawerWidget(),
+        // drawer: NavigationDrawerWidget(),
         appBar: AppBar(
           title: Text('Quran'),
           centerTitle: true,
