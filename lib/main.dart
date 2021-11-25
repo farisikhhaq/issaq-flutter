@@ -5,7 +5,6 @@ import 'package:issaq_pro/page/quran-page.dart';
 import 'package:issaq_pro/page/doa_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:issaq_pro/%5Btidakdipakai%5D/sholat_page.dart';
 // import 'package:issaq_pro/page/class_two.dart';
 import 'package:issaq_pro/page/home_screen.dart';
 
