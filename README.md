@@ -36,47 +36,45 @@ C:\src>flutter run
 ## Demo Aplikasi GIF
 
 ### Demo Sidebar Perpindahan Antar Page
-![](gif/sidebarcek11.gif)
-   ![](gif/sidebarcek22.gif)
-   ![](gif/sidebarcek33.gif)
-   ![](gif/sidebarcek44.gif)
-
+![](gif/bottomnavbar.gif)
+   ![](gif/scrollview.gif)
 
 ### List View Pada Page Artikel
-![](gif/listcek1.gif)
-   ![](gif/listcek2.gif)
-   ![](gif/listcek3.gif)
+![](gif/artikelpage.gif)
 
 
 ### List View Pada DOA dan Pergantian Page
-![](gif/listcekdoa11.gif)
-   ![](gif/listcekdoa22.gif)
+![](gif/doapage.gif)
+
+### List View dan API Sinkroniasasi Quran Page
+![](gif/quran1.gif)
+   ![](gif/quran2scroll.gif)
 
 
 ### Penjelasan
 
 1. Demo Sidebar Perpindahan Antar Page
 
-* Gambar 1 = Menu awal akan diawali oleh Sidebar Quran yang akan dilarikan ke Page Quran
-* Gambar 2 = Perpindahan dari Page Artikle ke Sholat
-* Gambar 3 = Perpindahan dari Page Sholat ke Doa
-* Gambar 4 = Perpindahan dari Page Tambahan ke Notifikasi
+* Gambar 1 = Demo Antar Page menggunakan Bottom navbar menu berbentuk stack
+* Gambar 2 = Melakukan test scroll pada homepage
 
 2. List View Pada Page Artikel
 
 * Gambar 1 = List View berjumlah 10 dan dapat berpindah page dengan adanya pemilihan data melalui detail_artikle.dart menggunakan model yang telah dibuat
-* Gambar 2 = Mencoba membuka salah satu artikle
-* Gambar 3 = Melakukan Scroll dan membuka random artikle lainnya
 
 3. List View Pada DOA dan Pergantian Page
 
 * Gambar 1 = Menekan  Page doa dan akan menampilkan 8 data model yang telah dibuat dengan berbentuk list cardview
-* Gambar 2 = Melakukan Klik random salah satu opsi model yang telah dibuat
+
+4. API Connect dengan Quran Kemenag
+* Gambar 1 = Demo membuka detail quran page pada surah alfatihah
+* Gambar 2 = Melakukan test scroll pada quran page untuk mendeteksi bahwa api berhasil berjalan dengan lancar
 
 ## In Progress dan Error Saat pengerjaan
 
-1. Pembuatan Login dan Register yang masih tahap inprogress karena terjadi kesalahan pada saat pembuatan yaitu error AppMapDebug
-2. Kendala splashcreen yang gambarnya tidak dapat muncul
+1. Kendala splashcreen yang gambarnya tidak dapat muncul
+2. Terjemahan indonesia masih mencari
+3. Dzikir masih inprogress
 
 ## YOUTUBE LINK
 https://youtu.be/iu14uQHp7WQ
