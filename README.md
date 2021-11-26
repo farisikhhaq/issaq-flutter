@@ -7,6 +7,12 @@ Jadi ini merupakan aplikasi yang melingkup seputar agama seperti informasi Shola
 Pada project aplikasi ini saya menggunakan flutter sebagai framework dan bahasa pemograman dart sebagai back-end nya. serta ada beberapa sumber lain sebagai artikle maupun lainnya. untuk menjalankan aplikasi ini diperlukan beberapa installasi software untuk pengembangannya.
 serta pada project aplikasi ini juga adalah lebih berfokus pada Perpindahan Page dan List. Saya disini menggunakan *PAGE BERITA ARTIKLE* dan *PAGE DOA*
 
+## UPDATE Mini Project 2
+1. Tampilan 
+2. Warna
+3. UI 
+4. API
+
 ### Installasi
 
 1. Melakukan penginstalan chocolatey : https://chocolatey.org/install
