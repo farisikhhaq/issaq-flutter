@@ -19,5 +19,6 @@ class ArtikelPage extends StatelessWidget {
             children: <Widget>[ListArtikel()],
           ),
         ),
+        
       );
 }
