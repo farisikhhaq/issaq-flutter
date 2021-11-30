@@ -13,7 +13,7 @@ serta pada project aplikasi ini juga adalah lebih berfokus pada Perpindahan Page
 3. UI 
 4. API
 
-### Installasi
+### Installasi 
 
 1. Melakukan penginstalan chocolatey : https://chocolatey.org/install
 2. Melakuan pengintalan dart sebagai berikut di-CMD:
