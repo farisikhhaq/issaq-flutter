@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:issaq_pro/screens/auth/Login.dart';
-import 'package:issaq_pro/screens/home/Home.dart';
 import 'package:issaq_pro/widget/widgets.dart';
 
 class Splash extends StatefulWidget {
@@ -28,7 +26,7 @@ class _SplashState extends State<Splash> {
     await Future.delayed(Duration(seconds: 2));
 
     //navigator
-    Navigator.pushReplacement(context,
-        MaterialPageRoute(builder: (context) => user ? Home() : Login()));
+    // Navigator.pushReplacement(context,
+    //     MaterialPageRoute(builder: (context) => user ? Home() : Login()));
   }
 }
