@@ -14,5 +14,6 @@ class DzikirCountPage extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red[200],
         ), */
+        body: Container(child: dzikircount()),
       );
 }
