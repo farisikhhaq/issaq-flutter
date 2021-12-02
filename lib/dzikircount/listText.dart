@@ -19,7 +19,7 @@ class _ListTextState extends State<ListText> {
       child: Text(
         text,
         style: TextStyle(
-          fontSize: 25,
+          fontSize: 25, fontFamily: 'Georgia',
         ),
       ),
     );

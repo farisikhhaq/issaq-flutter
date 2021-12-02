@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:issaq_pro/dzikircount/buttons.dart';
 import 'package:issaq_pro/dzikircount/viewDzikir.dart';
 import 'package:issaq_pro/theme.dart';
-import 'package:issaq_pro/utils/custom_color.dart';
 
 import 'listText.dart';
 
@@ -19,7 +18,7 @@ class dzikircount extends StatefulWidget {
 
 class _MyAppState extends State<dzikircount> {
   List<String> text_list = [
-    "Subhanalloh",
+    "Subhanallah",
     "Alhamdulillah",
     "Allohu akbar",
     "La ilaha illallohu vahdahu la sharika lah, lahul mulku va lahul hamd. Va huva 'ala kulli shayin qodir."
@@ -103,6 +102,7 @@ class _MyAppState extends State<dzikircount> {
         primarySwatch: Colors.cyan,
       ),
       home: Scaffold(
+        backgroundColor: orangeColor,
         body: SafeArea(
           bottom: false,
           child: Column(
@@ -117,20 +117,20 @@ class _MyAppState extends State<dzikircount> {
                       icon: Icon(
                         Icons.arrow_back,
                         size: 40,
-                        color: purpleColor,
+                        color: greenColor,
                       )),
                   Padding(
-                    padding: const EdgeInsets.all(20.0),
+                    padding: const EdgeInsets.fromLTRB(90, 10, 10, 0),
                     child: Text(
                       'Dzikir Counter',
                       style: TextStyle(
-                          fontFamily: 'sans-serif', color: greenColor),
+                          fontFamily: 'Georgia', color: greenColor, fontSize: 22),
                     ),
                   ),
                 ],
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(10, 120, 10, 10),
+                padding: const EdgeInsets.fromLTRB(12, 120, 10, 10),
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.stretch,

@@ -19,7 +19,7 @@ class Buttons extends StatelessWidget {
             shape: CircleBorder(),
             onPressed: tambahButir,
             child: Padding(
-              padding: const EdgeInsets.all(50),
+              padding: const EdgeInsets.all(80),
               child: Text(
                 '+',
                 style: TextStyle(color: Colors.white, fontSize: 24),
@@ -31,7 +31,7 @@ class Buttons extends StatelessWidget {
             shape: CircleBorder(),
             onPressed: gantiDzikir == 0 ? () {} : kurangiButir,
             child: Padding(
-              padding: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(30),
               child: Text(
                 '-',
                 style: TextStyle(color: Colors.white, fontSize: 24),
