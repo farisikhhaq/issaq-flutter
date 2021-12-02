@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:issaq_pro/theme.dart';
 
 class Buttons extends StatelessWidget {
   final Function() tambahButir;
@@ -14,7 +15,7 @@ class Buttons extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           MaterialButton(
-            color: Colors.blue,
+            color: greenColor,
             shape: CircleBorder(),
             onPressed: tambahButir,
             child: Padding(
