@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/dzikircount/buttons.dart';
 import 'package:issaq_pro/dzikircount/viewDzikir.dart';
+import 'package:issaq_pro/theme.dart';
 import 'package:issaq_pro/utils/custom_color.dart';
 
 import 'listText.dart';
@@ -107,17 +108,29 @@ class _MyAppState extends State<dzikircount> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              IconButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  icon: Icon(
-                    Icons.arrow_back,
-                    size: 24,
-                    color: purpleColor,
-                  )),
+              Row(
+                children: [
+                  IconButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      icon: Icon(
+                        Icons.arrow_back,
+                        size: 40,
+                        color: purpleColor,
+                      )),
+                  Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Text(
+                      'Dzikir Counter',
+                      style: TextStyle(
+                          fontFamily: 'sans-serif', color: greenColor),
+                    ),
+                  ),
+                ],
+              ),
               Padding(
-                padding: const EdgeInsets.all(80.0),
+                padding: const EdgeInsets.fromLTRB(10, 120, 10, 10),
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.stretch,
