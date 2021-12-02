@@ -1,9 +1,8 @@
+import 'package:issaq_pro/audio/list-murrotal.dart';
 import 'package:issaq_pro/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:issaq_pro/page/doa_page.dart';
-
-import 'murrotal-page.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -165,7 +164,7 @@ class HomeScreen extends StatelessWidget {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => MurrotalPage()));
+                                          builder: (context) => ListMurrotal()));
                                 },
                                 child: ItemMenu(
                                   title: 'Murrotal',
