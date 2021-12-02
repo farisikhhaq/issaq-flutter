@@ -43,6 +43,7 @@ dependencies:
   cloud_firestore: ^0.12.9+5
   youtube_player_flutter: ^8.0.0
   another_flushbar: ^1.10.26
+  audioplayers: ^0.20.1
 
 dev_dependencies:
   flutter_test:
