@@ -1,8 +1,12 @@
-
+import 'package:issaq_pro/model/murrotal-model.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class MurrotalPlayer extends StatefulWidget {
+  final Murrotal murrotal;
+
+   const MurrotalPlayer({required this.murrotal});
+  
   @override
   _MurrotalPlayerState createState() => _MurrotalPlayerState();
 }
@@ -11,7 +15,7 @@ class _MurrotalPlayerState extends State<MurrotalPlayer> {
   AudioPlayer audioPlayer = AudioPlayer();
   PlayerState audioPlayerState = PlayerState.PAUSED;
   String url =
-      'https://download.quranicaudio.com/quran/abdullaah_basfar/001.mp3';
+      'https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/002.mp3';
 
   @override
   void initState() {
