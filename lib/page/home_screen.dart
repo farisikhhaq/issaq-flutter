@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:issaq_pro/page/doa_page.dart';
 
+import 'murrotal-page.dart';
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
@@ -163,10 +165,10 @@ class HomeScreen extends StatelessWidget {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => DoaPage()));
+                                          builder: (context) => MurrotalPage()));
                                 },
                                 child: ItemMenu(
-                                  title: 'Video Ceramah',
+                                  title: 'Murrotal',
                                   img: 'assets/img_6.png',
                                 ),
                               ),
