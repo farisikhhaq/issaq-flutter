@@ -103,6 +103,7 @@ class _MyAppState extends State<dzikircount> {
       ),
       home: Scaffold(
         body: SafeArea(
+          bottom: false,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
