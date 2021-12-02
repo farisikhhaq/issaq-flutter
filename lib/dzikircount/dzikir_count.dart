@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/dzikircount/buttons.dart';
 import 'package:issaq_pro/dzikircount/viewDzikir.dart';
+import 'package:issaq_pro/utils/custom_color.dart';
 
 import 'listText.dart';
-
 
 class dzikircount extends StatefulWidget {
   int awal = 0;
@@ -63,9 +63,7 @@ class _MyAppState extends State<dzikircount> {
       if (widget.awal != 0) {
         widget.gantiDzikir--;
       }
-      if (widget.gantiDzikir == 1 &&
-          widget.dzikirKe == 0 &&
-          widget.awal == 0) {
+      if (widget.gantiDzikir == 1 && widget.dzikirKe == 0 && widget.awal == 0) {
         widget.gantiDzikir = 0;
       }
       if (widget.gantiDzikir <= 33 && widget.gantiDzikir >= 0) {
@@ -104,33 +102,37 @@ class _MyAppState extends State<dzikircount> {
         primarySwatch: Colors.cyan,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Tasbih app"),
-          actions: [
-            IconButton(
-              icon: Icon(Icons.restart_alt),
-              onPressed: () {
-                setState(() {
-                });
-              },
-            ),
-          ],
-        ),
-        body: Padding(
-          padding: const EdgeInsets.all(20.0),
+        body: SafeArea(
           child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                ListText(text_list, widget.dzikirKe),
-                Present(awal: widget.awal, batasan: widget.batasan),
-                Column(
-                  children: [
-                    Buttons(tambahButir, widget.gantiDzikir,
-                        kurangiButir),
-                  ],
-                ),
-              ]),
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              IconButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  icon: Icon(
+                    Icons.arrow_back,
+                    size: 24,
+                    color: purpleColor,
+                  )),
+              Padding(
+                padding: const EdgeInsets.all(80.0),
+                child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      ListText(text_list, widget.dzikirKe),
+                      Present(awal: widget.awal, batasan: widget.batasan),
+                      Column(
+                        children: [
+                          Buttons(
+                              tambahButir, widget.gantiDzikir, kurangiButir),
+                        ],
+                      ),
+                    ]),
+              ),
+            ],
+          ),
         ),
       ),
     );
