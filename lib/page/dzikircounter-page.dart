@@ -5,15 +5,6 @@ import 'package:issaq_pro/dzikircount/dzikir_count.dart';
 class DzikirCountPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
-        // drawer: NavigationDrawerWidget(),
-       /*  appBar: AppBar(
-          title: Text(
-            'Doa',
-            style: TextStyle(fontFamily: 'sans-serif', color: Colors.black),
-          ),
-          centerTitle: true,
-          backgroundColor: Colors.red[200],
-        ), */
         body: Container(child: dzikircount()),
       );
 }
