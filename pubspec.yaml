@@ -38,6 +38,11 @@ dependencies:
   flutter_spinkit: ^5.1.0
   introduction_screen: ^2.1.0
   curved_navigation_bar: ^1.0.1
+  firebase_core: ^0.4.0+9
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+5
+  youtube_player_flutter: ^8.0.0
+  another_flushbar: ^1.10.26
 
 dev_dependencies:
   flutter_test:
