@@ -1,7 +1,6 @@
 import 'package:issaq_pro/dzikir/dzikir_page.dart';
 import 'package:issaq_pro/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:issaq_pro/page/doa_page.dart';
 
 import 'dzikircounter-page.dart';
@@ -139,7 +138,7 @@ class HomeScreen extends StatelessWidget {
                                           builder: (context) => DzikirPagiPetang()));
                                 },
                                 child: ItemMenu(
-                                  title: 'Dzikir Pagi Petang',
+                                  title: 'Dzikir Pagi Malam',
                                   img: 'assets/img_4.png',
                                 ),
                               ),

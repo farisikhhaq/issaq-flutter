@@ -15,9 +15,9 @@ class DetailScreenDoa extends StatelessWidget {
         backgroundColor: orangeColor,
         title: Text(
           doa.titleCover,
-          style: purplePoppins.copyWith(fontSize: 16),
+          style: purplePoppins.copyWith(fontSize: 16), 
         ),
-        iconTheme: IconThemeData(color: purpleColor),
+        iconTheme: IconThemeData(color: grcolor, size: 35),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -26,7 +26,7 @@ class DetailScreenDoa extends StatelessWidget {
               padding: EdgeInsets.all(18),
               margin: EdgeInsets.symmetric(horizontal: edge, vertical: edge),
               decoration: BoxDecoration(
-                  color: purpleColor, borderRadius: BorderRadius.circular(20)),
+                  color: purpledof, borderRadius: BorderRadius.circular(20)),
               child: Column(
                 children: [
                   Text(

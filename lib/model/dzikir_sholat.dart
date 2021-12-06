@@ -7,7 +7,7 @@ class DzikirSholat {
   });
 }
 
-var DzikirSetelahSholatList = [
+var dzikirSetelahSholatList = [
   DzikirSholat(
       translate:
           '"Aku mohon ampun kepada Allah, Aku mohon ampun kepada Allah, Aku mohon ampun kepada Allah"',
