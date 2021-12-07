@@ -21,7 +21,21 @@ class WishlistDatabase {
     return await openDatabase(path, version: 1, onCreate: _createDB);
   }
   Future _createDB(Database db, int version) async {
-  
+  final idType = 'INTEGER PRIMARY KEY AUTOINCREMENT';
+    final textType = 'TEXT NOT NULL';
+    final boolType = 'BOOLEAN NOT NULL';
+    final integerType = 'INTEGER NOT NULL';
+
+    await db.execute('''
+CREATE TABLE $tableWishlist ( 
+  ${WishlistFields.id} $idType, 
+  ${WishlistFields.isImportant} $boolType,
+  ${WishlistFields.number} $integerType,
+  ${WishlistFields.title} $textType,
+  ${WishlistFields.description} $textType,
+  ${WishlistFields.time} $textType
+  )
+''');
   }
   Future close() async {
     final db = await instance.database;
