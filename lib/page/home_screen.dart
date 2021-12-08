@@ -164,10 +164,26 @@ class HomeScreen extends StatelessWidget {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => ListMurrotal()));
+                                          builder: (context) => DoaPage()));
                                 },
                                 child: ItemMenu(
-                                  title: 'Murrotal',
+                                  title: 'Video',
+                                  img: 'assets/img_6.png',
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              ListMurrotal()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Murrotal Quran',
                                   img: 'assets/img_6.png',
                                 ),
                               ),
