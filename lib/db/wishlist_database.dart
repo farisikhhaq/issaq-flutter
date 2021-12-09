@@ -28,7 +28,7 @@ class WishlistDatabase {
 
     await db.execute('''
 CREATE TABLE $tableWishlist ( 
-  ${WishlistFields.id} $idType, 
+  ${WishlistFields.id} $idType,
   ${WishlistFields.isImportant} $boolType,
   ${WishlistFields.number} $integerType,
   ${WishlistFields.title} $textType,
@@ -37,6 +37,16 @@ CREATE TABLE $tableWishlist (
   )
 ''');
   }
+
+Future<Wishlist> create(Wishlist wishlist) async {
+    final db = await instance.database;
+
+
+    final id = await db.insert(tableWishlist, wishlist.toJson());
+    return wishlist.copy(id: id);
+  }
+
+
   Future close() async {
     final db = await instance.database;
 
