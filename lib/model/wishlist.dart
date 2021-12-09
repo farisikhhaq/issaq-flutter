@@ -24,4 +24,31 @@ class Wishlist {
     required this.description,
     required this.createdTime,
   });
+
+  Wishlist copy({
+    int? id,
+    bool? isImportant,
+    int? number,
+    String? title,
+    String? description,
+    DateTime? createdTime,
+  }) =>
+      Wishlist(
+        id: id ?? this.id,
+        isImportant: isImportant ?? this.isImportant,
+        number: number ?? this.number,
+        title: title ?? this.title,
+        description: description ?? this.description,
+        createdTime: createdTime ?? this.createdTime,
+      );
+
+  Map<String, Object?> toJson() => {
+        WishlistFields.id: id,
+        WishlistFields.title: title,
+        WishlistFields.isImportant: isImportant ? 1 : 0,
+        WishlistFields.number: number,
+        WishlistFields.description: description,
+        WishlistFields.time: createdTime.toIso8601String(),
+      };
+
 }
