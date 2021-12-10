@@ -45,6 +45,15 @@ class Wishlist {
         createdTime: createdTime ?? this.createdTime,
       );
 
+  static Wishlist fromJson(Map<String, Object?> json) => Wishlist(
+        id: json[WishlistFields.id] as int?,
+        isImportant: json[WishlistFields.isImportant] == 1,
+        number: json[WishlistFields.number] as int,
+        title: json[WishlistFields.title] as String,
+        description: json[WishlistFields.description] as String,
+        createdTime: DateTime.parse(json[WishlistFields.time] as String),
+      );
+
   Map<String, Object?> toJson() => {
         WishlistFields.id: id,
         WishlistFields.title: title,
