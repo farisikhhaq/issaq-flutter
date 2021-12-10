@@ -46,6 +46,32 @@ Future<Wishlist> create(Wishlist wishlist) async {
     return wishlist.copy(id: id);
   }
 
+  Future<Wishlist> readWishlist(int id) async {
+    final db = await instance.database;
+
+    final maps = await db.query(
+      tableWishlist,
+      columns: WishlistFields.values,
+      where: '${WishlistFields.id} = ?',
+      whereArgs: [id],
+    );
+
+    if (maps.isNotEmpty) {
+      return Wishlist.fromJson(maps.first);
+    } else {
+      throw Exception('ID $id not found');
+    }
+  }
+
+  Future<List<Wishlist>> readAllNotes() async {
+    final db = await instance.database;
+
+    final orderBy = '${WishlistFields.time} ASC';
+
+    final result = await db.query(tableWishlist, orderBy: orderBy);
+
+    return result.map((json) => Wishlist.fromJson(json)).toList();
+  }
 
   Future close() async {
     final db = await instance.database;
