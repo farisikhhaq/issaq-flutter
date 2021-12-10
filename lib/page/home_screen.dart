@@ -3,6 +3,7 @@ import 'package:issaq_pro/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/page/doa_page.dart';
 
+import 'murrotal-page.dart';
 import 'dzikircounter-page.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -168,7 +169,23 @@ class HomeScreen extends StatelessWidget {
                                           builder: (context) => DoaPage()));
                                 },
                                 child: ItemMenu(
-                                  title: 'Video Ceramah',
+                                  title: 'Video',
+                                  img: 'assets/img_6.png',
+                                ),
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              MurrotalPage()));
+                                },
+                                child: ItemMenu(
+                                  title: 'Murrotal Quran',
                                   img: 'assets/img_6.png',
                                 ),
                               ),
