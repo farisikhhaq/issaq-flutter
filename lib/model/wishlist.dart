@@ -1,6 +1,9 @@
 final String tableWishlist = 'wishlist';
 
 class WishlistFields {
+  static final List<String> values = [
+    id, isImportant, number, title, description, time
+  ];
 static final String id = '_id';
   static final String isImportant = 'isImportant';
   static final String number = 'number';
