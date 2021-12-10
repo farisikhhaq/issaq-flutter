@@ -73,6 +73,17 @@ Future<Wishlist> create(Wishlist wishlist) async {
     return result.map((json) => Wishlist.fromJson(json)).toList();
   }
 
+  Future<int> update(Wishlist note) async {
+    final db = await instance.database;
+
+    return db.update(
+      tableWishlist,
+      note.toJson(),
+      where: '${WishlistFields.id} = ?',
+      whereArgs: [note.id],
+    );
+  }
+
   Future close() async {
     final db = await instance.database;
 
