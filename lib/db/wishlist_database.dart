@@ -84,6 +84,16 @@ Future<Wishlist> create(Wishlist wishlist) async {
     );
   }
 
+  Future<int> delete(int id) async {
+    final db = await instance.database;
+
+    return await db.delete(
+      tableWishlist,
+      where: '${WishlistFields.id} = ?',
+      whereArgs: [id],
+    );
+  }
+
   Future close() async {
     final db = await instance.database;
 
