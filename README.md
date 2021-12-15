@@ -4,14 +4,14 @@ Jadi ini merupakan aplikasi yang melingkup seputar agama seperti informasi Shola
 
 ## Pendahuluan
 
-Pada project aplikasi ini saya menggunakan flutter sebagai framework dan bahasa pemograman dart sebagai back-end nya. serta ada beberapa sumber lain sebagai artikle maupun lainnya. untuk menjalankan aplikasi ini diperlukan beberapa installasi software untuk pengembangannya.
-serta pada project aplikasi ini juga adalah lebih berfokus pada Perpindahan Page dan List. Saya disini menggunakan *PAGE BERITA ARTIKLE* dan *PAGE DOA*
+Pada project aplikasi ini saya menggunakan flutter sebagai framework dan bahasa pemograman dart sebagai back-end nya. serta ada beberapa sumber lain sebagai artikle, quran, sholat maupun lainnya. untuk menjalankan aplikasi ini diperlukan beberapa installasi software untuk pengembangannya.
 
-## UPDATE Mini Project 2
-1. Tampilan 
-2. Warna
-3. UI 
-4. API
+## UPDATE FINAL PROJECT
+1. Jadwal Sholat
+2. Dzikir Counter
+3. Dzikir Bacaan
+4. Murrotal
+5. Wish List Catatan Quran
 
 ### Installasi
 
@@ -78,11 +78,11 @@ C:\src>flutter run
 
 ## In Progress dan Error Saat pengerjaan
 
-1. Kendala splashcreen yang gambarnya tidak dapat muncul
-2. Terjemahan indonesia masih mencari
-3. Dzikir masih inprogress
+* Menunggu Update Lebih Lanjut (INPROGRESS)
 
 ## YOUTUBE LINK
+
+* Menunggu Update Lebih Lanjut (INPROGRESS)
 
 ## IDENTITAS DIRI
 ```
