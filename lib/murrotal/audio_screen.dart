@@ -3,10 +3,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/qari.dart';
 import 'package:issaq_pro/model/surah.dart';
-// import 'package:flutter_quran_app/model/qari.dart';
-// import 'package:flutter_quran_app/model/surah.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:issaq_pro/utils/custom_color.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:rxdart/rxdart.dart';
@@ -94,14 +93,14 @@ class _AudioScreenState extends State<AudioScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.white,
+        backgroundColor: orangeColor,
         leading: IconButton(
           onPressed: (){
             Navigator.pop(context);
           },
           icon: Icon(Icons.arrow_back_ios , color: Colors.black,),
         ),
-        title: Text('Now Playing',style: TextStyle(color: Colors.black,fontWeight: FontWeight.w800),),
+        title: Text('Now Playing',style: blacksPoppins,),
       ),
       body: SafeArea(
         child: Container(
@@ -115,12 +114,12 @@ class _AudioScreenState extends State<AudioScreen> {
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(20)),
-                  color: Color(0xffA5D2D6),
+                  color: purpleColor,
                   boxShadow: [
                     BoxShadow(
                       blurRadius: 1,
                       offset: Offset(0,2),
-                      color: Colors.black12
+                      color: purpleColor
                     ),
                   ]
                 ),
@@ -136,7 +135,7 @@ class _AudioScreenState extends State<AudioScreen> {
                           fontWeight: FontWeight.bold),
                     ),
                     Text(
-                      'Total Aya : ${widget.list![currentIndex].numberOfAyahs}',
+                      'Total Ayah : ${widget.list![currentIndex].numberOfAyahs}',
                       style: TextStyle(color: Colors.white, fontSize: 18),
                     ),
                   ],
@@ -201,7 +200,7 @@ class _AudioScreenState extends State<AudioScreen> {
                           return Container(
                               //padding: EdgeInsets.all(10),
                               decoration: BoxDecoration(
-                                color: Color(0xffA5D2D6),
+                                color: purpleColor,
                                 borderRadius: BorderRadius.circular(20),
                               ),
                              // width: _width * 0.24,
