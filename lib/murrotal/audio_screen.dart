@@ -136,7 +136,7 @@ class _AudioScreenState extends State<AudioScreen> {
                     ),
                     Text(
                       'Total Ayah : ${widget.list![currentIndex].numberOfAyahs}',
-                      style: TextStyle(color: Colors.white, fontSize: 18),
+                      style: blacksPoppins,
                     ),
                   ],
                 ),
