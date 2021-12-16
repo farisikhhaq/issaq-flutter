@@ -64,7 +64,7 @@ CREATE TABLE $tableWishlist (
     }
   }
 
-  Future<List<Wishlist>> readAllNotes() async {
+  Future<List<Wishlist>> readAllWishlists() async {
     final db = await instance.database;
 
     final orderBy = '${WishlistFields.time} ASC';
@@ -74,14 +74,14 @@ CREATE TABLE $tableWishlist (
     return result.map((json) => Wishlist.fromJson(json)).toList();
   }
 
-  Future<int> update(Wishlist note) async {
+  Future<int> update(Wishlist wishlist) async {
     final db = await instance.database;
 
     return db.update(
       tableWishlist,
-      note.toJson(),
+      wishlist.toJson(),
       where: '${WishlistFields.id} = ?',
-      whereArgs: [note.id],
+      whereArgs: [wishlist.id],
     );
   }
 
