@@ -95,4 +95,16 @@ class _AddEditWishlistPageState extends State<AddEditWishlistPage> {
 
     await WishlistDatabase.instance.update(wishlist);
   }
+
+  Future addWishlist() async {
+    final wishlist = Wishlist(
+      title: title,
+      isImportant: true,
+      number: number,
+      description: description,
+      createdTime: DateTime.now(),
+    );
+
+    await WishlistDatabase.instance.create(wishlist);
+  }
 }
