@@ -22,8 +22,8 @@ class ListDoa extends StatelessWidget {
                   },
                   icon: Icon(
                     Icons.arrow_back,
-                    size: 24,
-                    color: purpleColor,
+                    size: 35,
+                    color: grcolor,
                   )
               ),
               Row(
@@ -94,7 +94,7 @@ class ListDoa extends StatelessWidget {
           padding: EdgeInsets.all(edge),
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(25),
-              color: purpleColor
+              color: purpledof
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

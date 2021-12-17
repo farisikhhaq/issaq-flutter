@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 Color greenColor = Color(0xff2F5233);
 Color orangeColor = Color(0xffFEE1D3);
 Color greenColor1 = Color(0xffD6C099);
+Color purpleColor = Color(0xff54275E);
 
 double edge = 24;
 

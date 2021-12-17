@@ -7,6 +7,8 @@ Color darkToscaColor = Color(0xff00536e);
 Color backColor = Color(0xffFEE1D3);
 Color newColor2 = Color(0xffC382049);
 Color newColor3 = Color(0xff79708F);
+Color purpledof = Color(0xff5B3F5B);
+Color grcolor = Color(0xff2F5233);
 
 var styleTitle =
     TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0, fontFamily: 'komik', color: Colors.white);
@@ -51,7 +53,7 @@ TextStyle orangePoppins = GoogleFonts.poppins(
 
 TextStyle purplePoppins = GoogleFonts.poppins(
   fontWeight: FontWeight.w500,
-  color: purpleColor,
+  color: purpledof,
 );
 
 TextStyle whitePoppins = GoogleFonts.poppins(
