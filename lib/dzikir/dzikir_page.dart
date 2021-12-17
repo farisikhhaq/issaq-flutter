@@ -26,31 +26,31 @@ class DzikirPagiPetang extends StatelessWidget {
       ),
       backgroundColor: orangeColor,
       body: SafeArea(
-          child: Column(
-            children: [
-              InkWell(
+        child: Column(
+          children: [
+            InkWell(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DzikirPagi()));
+              },
+              child: ItemDzikir(title: 'Dzikir Pagi', image: 'assets/pagi.png'),
+            ),
+            InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => DzikirPagi()));
+                      MaterialPageRoute(builder: (context) => DzikirMalam()));
                 },
-                child: ItemDzikir(title: 'Dzikir Pagi', image: 'assets/pagi.png'),
-              ),
-              InkWell(
-                  onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => DzikirMalam()));
-                  },
-                  child: ItemDzikir(
-                      title: 'Dzikir Malam', image: 'assets/petang.png')),
-              InkWell(
-                  onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => DzikirSholat()));
-                  },
-                  child: ItemDzikir(
-                      title: 'Dzikir Sholat', image: 'assets/pray.png')),
-            ],
-          ),
+                child: ItemDzikir(
+                    title: 'Dzikir Malam', image: 'assets/petang.png')),
+            InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => DzikirSholat()));
+                },
+                child: ItemDzikir(
+                    title: 'Dzikir Sholat', image: 'assets/pray.png')),
+          ],
+        ),
       ),
     );
   }
