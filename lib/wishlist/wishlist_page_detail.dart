@@ -38,7 +38,7 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          actions: [deleteButton()],
+          actions: [editButton(), deleteButton()],
         ),
         body: isLoading
             ? Center(child: CircularProgressIndicator())
@@ -69,6 +69,17 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
                 ),
               ),
       );
+      Widget editButton() => IconButton(
+      icon: Icon(Icons.edit_outlined),
+      onPressed: () async {
+        if (isLoading) return;
+
+        await Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => AddEditWishlistPage(wishlist: wishlist),
+        ));
+
+        refreshWishlist();
+      });
 
   Widget deleteButton() => IconButton(
         icon: Icon(Icons.delete),
