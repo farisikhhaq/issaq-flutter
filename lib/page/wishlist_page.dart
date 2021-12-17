@@ -82,7 +82,8 @@ class _WishlistsPageState extends State<WishlistsPage> {
           return GestureDetector(
             onTap: () async {
               await Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => WishlistDetailPage(wishlistId: wishlist.id!),
+                builder: (context) =>
+                    WishlistDetailPage(wishlistId: wishlist.id!),
               ));
 
               refreshWishlists();

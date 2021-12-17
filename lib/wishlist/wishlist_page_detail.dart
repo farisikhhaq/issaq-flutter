@@ -30,7 +30,8 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
   Future refreshWishlist() async {
     setState(() => isLoading = true);
 
-    this.wishlist = await WishlistDatabase.instance.readWishlist(widget.wishlistId);
+    this.wishlist =
+        await WishlistDatabase.instance.readWishlist(widget.wishlistId);
 
     setState(() => isLoading = false);
   }
@@ -69,7 +70,7 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
                 ),
               ),
       );
-      Widget editButton() => IconButton(
+  Widget editButton() => IconButton(
       icon: Icon(Icons.edit_outlined),
       onPressed: () async {
         if (isLoading) return;
