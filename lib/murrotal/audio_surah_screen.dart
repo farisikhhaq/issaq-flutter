@@ -26,7 +26,7 @@ class _AudioSurahScreenState extends State<AudioSurahScreen> {
       appBar: AppBar(
         backgroundColor: orangeColor,
         elevation: 0,
-        title: Text('Surah List', style: blacksPoppins.copyWith(fontSize: 20)),
+        title: Text('Daftar Surat', style: blacksPoppins.copyWith(fontSize: 20)),
       ),
       body: SafeArea(
         child: FutureBuilder(
@@ -74,7 +74,7 @@ Widget AudioTile(
         padding: EdgeInsets.all(16),
         decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(8)),
-            color: purpleColor,
+            color: boxColor,
             boxShadow: [
               BoxShadow(
                 blurRadius: 5,
@@ -92,11 +92,11 @@ Widget AudioTile(
               padding: EdgeInsets.all(8),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.white,
+                color: orangeColor,
               ),
               child: Text((number).toString(),
                   style: blacksPoppins.copyWith(
-                      fontSize: 13, fontWeight: FontWeight.bold)),
+                      fontSize: 13)),
             ),
             SizedBox(
               width: 20,
@@ -112,7 +112,7 @@ Widget AudioTile(
                   height: 3,
                 ),
                 Text(
-                  "Total Aya : $totalAya",
+                  "Total Ayat : $totalAya",
                   style: blacksPoppins.copyWith(color: Colors.white, fontSize: 15),
                 ),
               ],

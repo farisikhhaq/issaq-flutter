@@ -23,6 +23,8 @@ var listTitle = TextStyle(
 
 Color purpleColor = Color(0xff7C7666);
 Color orangeColor = Color(0xffFEE1D3);
+Color buttonColor = Color(0xffD6C099);
+Color boxColor = Color(0xff2F5233);
 
 double edge = 24;
 

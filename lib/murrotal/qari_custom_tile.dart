@@ -23,7 +23,7 @@ class _QariCustomTileState extends State<QariCustomTile> {
           //alignment: Alignment.centerLeft,
           padding: EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: purpleColor,
+            color: boxColor,
             shape: BoxShape.rectangle,
             borderRadius: BorderRadius.all(Radius.circular(8)),
             boxShadow: [

@@ -69,7 +69,7 @@ class _AudioWidgetState extends State<AudioWidget> {
               SizedBox(height: 20,),
               Padding(
                 padding: const EdgeInsets.only(left: 8,bottom: 4),
-                child: Text('List of 20 Qari\'s : ',style: TextStyle(color: Colors.black54,fontSize: 20,fontWeight: FontWeight.bold),),
+                child: Text('Daftar Qari : ',style: blacksPoppins.copyWith(color: Colors.black, fontSize: 20),),
               ),
               SizedBox(height: 10,),
               Expanded(                
@@ -77,7 +77,7 @@ class _AudioWidgetState extends State<AudioWidget> {
                   future: apiServices.getQariList(),
                   builder: (BuildContext context , AsyncSnapshot<List<Qari>> snapshot){
                     if(snapshot.hasError){
-                      return Center(child: Text('Qari\'s data not found '),);
+                      return Center(child: Text('Data Qari Tidak Ditemukan '),);
                     }
                     if(snapshot.connectionState == ConnectionState.waiting){
                       return Center(child: CircularProgressIndicator(),);
