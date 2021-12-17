@@ -38,7 +38,7 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          actions: ,
+          actions: [deleteButton()],
         ),
         body: isLoading
             ? Center(child: CircularProgressIndicator())
@@ -70,5 +70,12 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
               ),
       );
 
-  
+  Widget deleteButton() => IconButton(
+        icon: Icon(Icons.delete),
+        onPressed: () async {
+          await WishlistDatabase.instance.delete(widget.wishlistId);
+
+          Navigator.of(context).pop();
+        },
+      );
 }
