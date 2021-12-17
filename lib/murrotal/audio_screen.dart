@@ -100,7 +100,7 @@ class _AudioScreenState extends State<AudioScreen> {
           },
           icon: Icon(Icons.arrow_back_ios , color: Colors.black,),
         ),
-        title: Text('Now Playing',style: blacksPoppins,),
+        title: Text('Sedang Diputar',style: blacksPoppins,),
       ),
       body: SafeArea(
         child: Container(
@@ -135,7 +135,7 @@ class _AudioScreenState extends State<AudioScreen> {
                           fontWeight: FontWeight.bold),
                     ),
                     Text(
-                      'Total Ayah : ${widget.list![currentIndex].numberOfAyahs}',
+                      'Total Ayat : ${widget.list![currentIndex].numberOfAyahs}',
                       style: blacksPoppins.copyWith(color: Colors.white),
                     ),
                   ],
@@ -254,7 +254,7 @@ class _AudioScreenState extends State<AudioScreen> {
                             //  height: _width * 0.24,
                               padding: EdgeInsets.all(12),
                               decoration: BoxDecoration(
-                                color: purpleColor,
+                                color: boxColor,
                                 borderRadius: BorderRadius.circular(20),
                               ),
                               child: Icon(
@@ -300,7 +300,7 @@ class _AudioScreenState extends State<AudioScreen> {
                       onPressed: () {
                         showSliderDialog(
                           context: context,
-                          title: "Adjust volume",
+                          title: "Atur Volume",
                           divisions: 10,
                           min: 0.0,
                           max: 1.0,
@@ -319,7 +319,7 @@ class _AudioScreenState extends State<AudioScreen> {
                         onPressed: () {
                           showSliderDialog(
                             context: context,
-                            title: "Adjust speed",
+                            title: "Atur Kecepatan",
                             divisions: 10,
                             min: 0.5,
                             max: 1.5,
@@ -354,7 +354,7 @@ class _AudioScreenState extends State<AudioScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('UPCOMING SURAH',style: TextStyle(color: Colors.black,
+                        Text('SURAH SELANJUTNYA',style: TextStyle(color: Colors.black,
                             fontSize: 20,fontWeight: FontWeight.bold),),
                         SizedBox(height: 12,),
                         Visibility(
