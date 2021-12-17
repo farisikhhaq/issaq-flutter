@@ -69,5 +69,26 @@ class _WishlistsPageState extends State<WishlistsPage> {
         ),
       );
 
-  
+  Widget buildWishlists() => StaggeredGridView.countBuilder(
+        padding: EdgeInsets.all(8),
+        itemCount: wishlists.length,
+        staggeredTileBuilder: (index) => StaggeredTile.fit(2),
+        crossAxisCount: 4,
+        mainAxisSpacing: 4,
+        crossAxisSpacing: 4,
+        itemBuilder: (context, index) {
+          final wishlist = wishlists[index];
+
+          return GestureDetector(
+            onTap: () async {
+              await Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => WishlistDetailPage(wishlistId: wishlist.id!),
+              ));
+
+              refreshWishlists();
+            },
+            child: WishlistCardWidget(wishlist: wishlist, index: index),
+          );
+        },
+      );
 }
