@@ -69,5 +69,30 @@ class _AddEditWishlistPageState extends State<AddEditWishlistPage> {
     );
   }
 
-  
+  void addOrUpdateWishlist() async {
+    final isValid = _formKey.currentState!.validate();
+
+    if (isValid) {
+      final isUpdating = widget.wishlist != null;
+
+      if (isUpdating) {
+        await updateWishlist();
+      } else {
+        await addWishlist();
+      }
+
+      Navigator.of(context).pop();
+    }
+  }
+
+  Future updateWishlist() async {
+    final wishlist = widget.wishlist!.copy(
+      isImportant: isImportant,
+      number: number,
+      title: title,
+      description: description,
+    );
+
+    await WishlistDatabase.instance.update(wishlist);
+  }
 }
