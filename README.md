@@ -1,4 +1,4 @@
-# ISSAQ (Information System Shola and Quran)
+# ISSAQ (Information System Shola and Quran) 
 
 Jadi ini merupakan aplikasi yang melingkup seputar agama seperti informasi Sholat, Pembacaan Alquran, Doa, Artikle dan Lainnya.
 
