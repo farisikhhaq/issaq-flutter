@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/qari.dart';
-import 'package:issaq_pro/utils/custom_color.dart';
+import 'package:issaq_pro/utils/theme.dart';
 // import 'package:flutter_quran_app/model/qari.dart';
 
 class QariCustomTile extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/dzikir_pagi.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class DzikirPagi extends StatelessWidget {
   const DzikirPagi({Key? key}) : super(key: key);

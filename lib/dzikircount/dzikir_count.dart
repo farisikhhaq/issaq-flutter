@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/dzikircount/buttons.dart';
 import 'package:issaq_pro/dzikircount/viewDzikir.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 import 'listText.dart';
 

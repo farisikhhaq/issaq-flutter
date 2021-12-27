@@ -1,6 +1,6 @@
 import 'package:issaq_pro/model/doa.dart';
-import 'package:issaq_pro/utils/custom_color.dart';
 import 'package:flutter/material.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class DetailScreenDoa extends StatelessWidget {
   const DetailScreenDoa({Key? key, required this.doa}) : super(key: key);
@@ -64,51 +64,6 @@ class DetailScreenDoa extends StatelessWidget {
                 ],
               ),
             ),
-            // (doa.title2 == null) ? Container() :
-            // Container(
-            //   padding: EdgeInsets.all(18),
-            //   margin: EdgeInsets.symmetric(horizontal: edge, vertical: edge),
-            //   decoration: BoxDecoration(
-            //       color: purpleColor,
-            //       borderRadius: BorderRadius.circular(20)
-            //   ),
-            //   child: Column(
-            //     children: [
-            //       Text(
-            //         (doa.title2 ?? '').isEmpty ? '' : doa.title2!,
-            //         style: orangePoppins.copyWith(
-            //           fontSize: 20,
-            //         ),
-            //         textAlign: TextAlign.center,
-            //       ),
-            //       SizedBox(height: 10,),
-            //       Text(
-            //         (doa.arabic2 ?? '').isEmpty ? '' : doa.arabic2!,
-            //         style: orangePoppins.copyWith(
-            //             fontSize: 20
-            //         ),
-            //         textDirection: TextDirection.rtl,
-            //         textAlign: TextAlign.right,
-            //       ),
-            //       SizedBox(height: 10,),
-            //       Text(
-            //         (doa.latin2 ?? '').isEmpty ? '' : doa.latin2!,
-            //         style: orangePoppins.copyWith(
-            //             fontSize: 14
-            //         ),
-            //         textAlign: TextAlign.left,
-            //       ),
-            //       SizedBox(height: 10,),
-            //       Text(
-            //         (doa.translate2 ?? '').isEmpty ? '' : doa.translate2!,
-            //         style: orangePoppins.copyWith(
-            //           fontSize: 14
-            //       ),
-            //         textAlign: TextAlign.left,
-            //       )
-            //     ],
-            //   ),
-            // ),
           ],
         ),
       ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/dzikir_sholat.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class DzikirSholat extends StatelessWidget {
   const DzikirSholat({Key? key}) : super(key: key);

@@ -5,7 +5,7 @@ import 'package:issaq_pro/model/qari.dart';
 import 'package:issaq_pro/model/surah.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:issaq_pro/utils/custom_color.dart';
+import 'package:issaq_pro/utils/theme.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:rxdart/rxdart.dart';

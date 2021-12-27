@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'package:google_fonts/google_fonts.dart';
+
 Color toscaColor = Color(0xfff26363);
 Color lightToscaColor = Color(0xff5daecd);
 Color darkToscaColor = Color(0xff00536e);
@@ -21,10 +23,14 @@ var listTitle = TextStyle(
     color: Colors.grey[600],
     fontFamily: 'komik');
 
-Color purpleColor = Color(0xff7C7666);
-Color orangeColor = Color(0xffFEE1D3);
+Color purpleColor = Color(0xff54275E);
 Color buttonColor = Color(0xffD6C099);
 Color boxColor = Color(0xff2F5233);
+
+
+Color greenColor = Color(0xff2F5233);
+Color orangeColor = Color(0xffFEE1D3);
+Color greenColor1 = Color(0xffD6C099);
 
 double edge = 24;
 
@@ -33,8 +39,10 @@ TextStyle blackNormal = GoogleFonts.publicSans(
   color: Colors.black,
 );
 
-TextStyle whiteNormal =
-    GoogleFonts.publicSans(fontWeight: FontWeight.w500, color: Colors.white);
+TextStyle whiteNormal = GoogleFonts.publicSans(
+  fontWeight: FontWeight.w500,
+  color: Colors.white
+);
 
 TextStyle blackSemiBold = GoogleFonts.publicSans(
   fontWeight: FontWeight.w600,
@@ -53,10 +61,12 @@ TextStyle orangePoppins = GoogleFonts.poppins(
 
 TextStyle purplePoppins = GoogleFonts.poppins(
   fontWeight: FontWeight.w500,
-  color: purpledof,
+  color: greenColor,
 );
 
 TextStyle whitePoppins = GoogleFonts.poppins(
   fontWeight: FontWeight.w500,
   color: Colors.white,
 );
+
+

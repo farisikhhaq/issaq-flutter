@@ -1,7 +1,7 @@
 import 'package:adhan_dart/adhan_dart.dart';
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/adhan_waktu.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class AdzanList extends StatefulWidget {
   const AdzanList({Key? key}) : super(key: key);
@@ -75,35 +75,35 @@ class _AdzanListState extends State<AdzanList> {
                         child: ListTile(
                           title: Text("Sholat Shubuh",
                               style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text("${prayerTimes.fajr!.toLocal().hour} ${prayerTimes.fajr!.toLocal().minute}"),
+                          subtitle: Text("0${prayerTimes.fajr!.toLocal().hour}:${prayerTimes.fajr!.toLocal().minute}"),
                         )),
                     Card(
                         color: orangeColor,
                         child: ListTile(
                           title: Text("Sholat Dzuhur",
                               style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text(""),
+                          subtitle: Text("${prayerTimes.dhuhr!.toLocal().hour}:${prayerTimes.dhuhr!.toLocal().minute}"),
                         )),
                     Card(
                         color: orangeColor,
                         child: ListTile(
                           title: Text("Sholat Ashar",
                               style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text(""),
+                          subtitle: Text("${prayerTimes.asr!.toLocal().hour}:${prayerTimes.asr!.toLocal().minute}${prayerTimes.asr!.toLocal().minute}"),
                         )),
                     Card(
                         color: orangeColor,
                         child: ListTile(
                           title: Text("Sholat Magrib",
                               style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text(""),
+                          subtitle: Text("${prayerTimes.maghrib!.toLocal().hour}:${prayerTimes.maghrib!.toLocal().minute}"),
                         )),
                     Card(
                         color: orangeColor,
                         child: ListTile(
                           title: Text("Sholat Isya",
                               style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text(""),
+                          subtitle: Text("${prayerTimes.isha!.toLocal().hour}:${prayerTimes.isha!.toLocal().minute}${prayerTimes.asr!.toLocal().minute}"),
                         )),
                   ]),
                

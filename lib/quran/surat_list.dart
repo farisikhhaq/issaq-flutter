@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/surat_model.dart';
 import 'package:issaq_pro/quran/surat_list_detail.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class SuratList extends StatefulWidget {
   @override
