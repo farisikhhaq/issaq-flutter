@@ -1,6 +1,6 @@
 import 'package:issaq_pro/model/doa.dart';
-import 'package:issaq_pro/utils/custom_color.dart';
 import 'package:flutter/material.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class DetailScreenDoa extends StatelessWidget {
   const DetailScreenDoa({Key? key, required this.doa}) : super(key: key);

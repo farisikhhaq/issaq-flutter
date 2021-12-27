@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:issaq_pro/page/artikel-page.dart';
 import 'package:issaq_pro/page/quran-page.dart';

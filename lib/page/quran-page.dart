@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/quran/surat_list.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class QuranPage extends StatelessWidget {
   @override

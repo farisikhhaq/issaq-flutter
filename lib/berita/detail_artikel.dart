@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/artikel_islami.dart';
-import 'package:issaq_pro/theme.dart';
-import 'package:issaq_pro/utils/custom_color.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class DetailArtikel extends StatelessWidget {
   final ArtikelIslami artikelIslami;

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/qari.dart';
 import 'package:issaq_pro/services/api_services.dart';
 import 'package:issaq_pro/murrotal/qari_custom_tile.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 import 'audio_surah_screen.dart';
 // import 'package:flutter_quran_app/model/qari.dart';
 // import 'package:flutter_quran_app/services/api_services.dart';

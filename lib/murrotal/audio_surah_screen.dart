@@ -3,11 +3,7 @@ import 'package:issaq_pro/model/qari.dart';
 import 'package:issaq_pro/model/surah.dart';
 import 'package:issaq_pro/services/api_services.dart';
 import 'package:issaq_pro/murrotal/audio_screen.dart';
-import 'package:issaq_pro/utils/custom_color.dart';
-// import 'package:flutter_quran_app/model/qari.dart';
-// import 'package:flutter_quran_app/model/surah.dart';
-// import 'package:flutter_quran_app/services/api_services.dart';
-// import 'package:flutter_quran_app/view/audio_screen.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class AudioSurahScreen extends StatefulWidget {
   const AudioSurahScreen({Key? key, required this.qari}) : super(key: key);

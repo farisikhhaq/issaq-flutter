@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/dzikir/dzikir_pagi.dart';
 import 'package:issaq_pro/dzikir/dzikir_sholat.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 import 'dzikir_malam.dart';
 
