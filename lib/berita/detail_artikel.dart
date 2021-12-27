@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/artikel_islami.dart';
-
-import '../utils/custom_color.dart';
+import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/custom_color.dart';
 
 class DetailArtikel extends StatelessWidget {
   final ArtikelIslami artikelIslami;
@@ -12,10 +12,10 @@ class DetailArtikel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: toscaColor,
+        backgroundColor: greenColor,
         title: Text(artikelIslami.title, style: TextStyle(color: Colors.white)),
       ),
-      backgroundColor: toscaColor,
+      backgroundColor: greenColor,
       body: SingleChildScrollView(
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,

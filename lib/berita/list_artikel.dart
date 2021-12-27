@@ -20,22 +20,8 @@ class ListArtikel extends StatelessWidget {
                   elevation: 0,
                   color: backColor,
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        PageRouteBuilder(
-                            transitionDuration: Duration(seconds: 1),
-                            transitionsBuilder:
-                                (context, animation, animationTime, child) {
-                              animation = CurvedAnimation(
-                                  parent: animation, curve: Curves.elasticOut);
-                              return ScaleTransition(
-                                  scale: animation,
-                                  alignment: Alignment.center,
-                                  child: child);
-                            },
-                            pageBuilder: (context, animation, animationTime) {
-                              return DetailArtikel(artikelIslami: place);
-                            }));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => DetailArtikel(artikelIslami: place)));
                   },
                   child: Card(
                     color: greenColor,
@@ -79,7 +65,9 @@ class ListArtikel extends StatelessWidget {
                                     Text(
                                       place.date,
                                       style: TextStyle(
-                                          fontFamily: 'komik', fontSize: 12, color: Colors.white),
+                                          fontFamily: 'komik',
+                                          fontSize: 12,
+                                          color: Colors.white),
                                     ),
                                     SizedBox(width: 10),
                                     Icon(Icons.perm_identity, size: 20),
@@ -87,7 +75,9 @@ class ListArtikel extends StatelessWidget {
                                       child: Text(
                                         place.author,
                                         style: TextStyle(
-                                            fontFamily: 'komik', fontSize: 12, color: Colors.white),
+                                            fontFamily: 'komik',
+                                            fontSize: 12,
+                                            color: Colors.white),
                                       ),
                                     ),
                                   ],
@@ -98,7 +88,8 @@ class ListArtikel extends StatelessWidget {
                                 Text(
                                   place.description,
                                   maxLines: 2,
-                                  style: TextStyle(fontFamily: 'komik', color: Colors.white),
+                                  style: TextStyle(
+                                      fontFamily: 'komik', color: Colors.white),
                                 ),
                               ],
                             ),
