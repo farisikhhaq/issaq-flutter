@@ -4,11 +4,6 @@ import 'package:issaq_pro/services/api_services.dart';
 import 'package:issaq_pro/murrotal/qari_custom_tile.dart';
 import 'package:issaq_pro/utils/theme.dart';
 import 'audio_surah_screen.dart';
-// import 'package:flutter_quran_app/model/qari.dart';
-// import 'package:flutter_quran_app/services/api_services.dart';
-// import 'package:flutter_quran_app/view/audio_surah_screen.dart';
-// import 'package:flutter_quran_app/widgets/qari_custom_tile.dart';
-
 
 class AudioWidget extends StatefulWidget {
   const AudioWidget({Key? key}) : super(key: key);
@@ -93,24 +88,6 @@ class _AudioWidgetState extends State<AudioWidget> {
                         });
                       },
                     );
-
-                    // return GridView.builder(
-                    //   gridDelegate:
-                    //       SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-                    //   itemCount: snapshot.data!.length,
-                    //   shrinkWrap: true,
-                    //   itemBuilder: (context, index) {
-                    //     return QariCustomTile(
-                    //         qari: snapshot.data![index],
-                    //         ontap: () {
-                    //           Navigator.push(
-                    //               context,
-                    //               MaterialPageRoute(
-                    //                   builder: (context) => AudioSurahScreen(
-                    //                       qari: snapshot.data![index])));
-                    //         });
-                    //   },
-                    // );
                   },
                 ),
               ),
