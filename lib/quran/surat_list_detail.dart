@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/model/surat_ayat_model.dart';
-import 'package:issaq_pro/theme.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class SuratListDetail extends StatefulWidget {
   final String suratId;
