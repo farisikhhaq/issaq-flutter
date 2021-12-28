@@ -1,3 +1,4 @@
+import 'package:issaq_pro/page/wishlist_page.dart';
 import 'package:issaq_pro/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -133,7 +134,7 @@ class HomeScreen extends StatelessWidget {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => DoaPage()));
+                                          builder: (context) => WishlistsPage()));
                                 },
                                 child: ItemMenu(
                                   title: 'Dzikir Pagi Petang',

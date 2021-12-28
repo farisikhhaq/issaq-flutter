@@ -29,23 +29,23 @@ class WishlistFormWidget extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Row(
-                children: [
-                  Switch(
-                    value: isImportant ?? false,
-                    onChanged: onChangedImportant,
-                  ),
-                  Expanded(
-                    child: Slider(
-                      value: (number ?? 0).toDouble(),
-                      min: 0,
-                      max: 5,
-                      divisions: 5,
-                      onChanged: (number) => onChangedNumber(number.toInt()),
-                    ),
-                  )
-                ],
-              ),
+              // Row(
+              //   children: [
+              //     Switch(
+              //       value: isImportant ?? false,
+              //       onChanged: onChangedImportant,
+              //     ),
+              //     Expanded(
+              //       child: Slider(
+              //         value: (number ?? 0).toDouble(),
+              //         min: 0,
+              //         max: 5,
+              //         divisions: 5,
+              //         onChanged: (number) => onChangedNumber(number.toInt()),
+              //       ),
+              //     )
+              //   ],
+              // ),
               buildTitle(),
               SizedBox(height: 8),
               buildDescription(),
@@ -59,14 +59,14 @@ class WishlistFormWidget extends StatelessWidget {
         maxLines: 1,
         initialValue: title,
         style: TextStyle(
-          color: Colors.white70,
+          color: Colors.black,
           fontWeight: FontWeight.bold,
           fontSize: 24,
         ),
         decoration: InputDecoration(
           border: InputBorder.none,
           hintText: 'Title',
-          hintStyle: TextStyle(color: Colors.white70),
+          hintStyle: TextStyle(color: Colors.black),
         ),
         validator: (title) =>
             title != null && title.isEmpty ? 'The title cannot be empty' : null,
@@ -76,11 +76,11 @@ class WishlistFormWidget extends StatelessWidget {
   Widget buildDescription() => TextFormField(
         maxLines: 5,
         initialValue: description,
-        style: TextStyle(color: Colors.white60, fontSize: 18),
+        style: TextStyle(color: Colors.black, fontSize: 18),
         decoration: InputDecoration(
           border: InputBorder.none,
           hintText: 'Type something...',
-          hintStyle: TextStyle(color: Colors.white60),
+          hintStyle: TextStyle(color: Colors.black),
         ),
         validator: (title) => title != null && title.isEmpty
             ? 'The description cannot be empty'

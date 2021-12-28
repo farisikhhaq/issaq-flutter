@@ -60,7 +60,7 @@ class _AddEditWishlistPageState extends State<AddEditWishlistPage> {
       padding: EdgeInsets.symmetric(vertical: 8, horizontal: 12),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          onPrimary: Colors.white,
+          onPrimary: Colors.black,
           primary: isFormValid ? null : Colors.grey.shade700,
         ),
         onPressed: addOrUpdateWishlist,
