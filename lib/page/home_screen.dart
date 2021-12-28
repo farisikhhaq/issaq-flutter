@@ -2,7 +2,6 @@ import 'package:issaq_pro/dzikir/dzikir_page.dart';
 import 'package:issaq_pro/jadwal/adzan_list.dart';
 import 'package:issaq_pro/utils/theme.dart';
 import 'package:issaq_pro/page/wishlist_page.dart';
-import 'package:issaq_pro/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/page/doa_page.dart';
 
