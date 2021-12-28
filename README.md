@@ -13,7 +13,7 @@ Pada project aplikasi ini saya menggunakan flutter sebagai framework dan bahasa 
 4. Murrotal
 5. Wish List Catatan Quran
 
-### Installasi
+### Installasi 
 
 1. Melakukan penginstalan chocolatey : https://chocolatey.org/install
 2. Melakuan pengintalan dart sebagai berikut di-CMD:
