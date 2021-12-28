@@ -51,7 +51,7 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
                     Text(
                       wishlist.title,
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 22,
                         fontWeight: FontWeight.bold,
                       ),
@@ -59,12 +59,12 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
                     SizedBox(height: 8),
                     Text(
                       DateFormat.yMMMd().format(wishlist.createdTime),
-                      style: TextStyle(color: Colors.white38),
+                      style: TextStyle(color: Colors.black),
                     ),
                     SizedBox(height: 8),
                     Text(
                       wishlist.description,
-                      style: TextStyle(color: Colors.white70, fontSize: 18),
+                      style: TextStyle(color: Colors.black, fontSize: 18),
                     )
                   ],
                 ),
