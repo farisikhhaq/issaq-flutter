@@ -49,64 +49,95 @@ class _AdzanListState extends State<AdzanList> {
                     child: Text(
                       'Jadwal Sholat',
                       style: TextStyle(
-                          fontFamily: 'Georgia', color: greenColor, fontSize: 22),
+                          fontFamily: 'Georgia',
+                          color: greenColor,
+                          fontSize: 22),
                     ),
                   ),
                 ],
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
-                  child: Column(children: <Widget>[
-                    Card(
-                        child: ListTile(
-                      title: Text("${date.day} ${adzanbulan[date.month-1]} ${date.year}",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 24,
-                          )),
-                      subtitle: Text(
-                        "Untuk Wilayah Malang",
+                padding: const EdgeInsets.fromLTRB(10, 20, 10, 10),
+                child: Column(children: <Widget>[
+                  InkWell(
+                      child: ListTile(
+                    title: Text(
+                        "${date.day} ${adzanbulan[date.month - 1]} ${date.year}",
                         textAlign: TextAlign.center,
-                      ),
-                    )),
-                    Card(
-                        color: orangeColor,
-                        child: ListTile(
-                          title: Text("Sholat Shubuh",
-                              style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text("0${prayerTimes.fajr!.toLocal().hour}:${prayerTimes.fajr!.toLocal().minute}"),
+                        style: TextStyle(
+                          fontFamily: 'Georgia',
+                          fontWeight: FontWeight.bold,
+                          fontSize: 24,
                         )),
-                    Card(
-                        color: orangeColor,
-                        child: ListTile(
-                          title: Text("Sholat Dzuhur",
-                              style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text("${prayerTimes.dhuhr!.toLocal().hour}:${prayerTimes.dhuhr!.toLocal().minute}"),
-                        )),
-                    Card(
-                        color: orangeColor,
-                        child: ListTile(
-                          title: Text("Sholat Ashar",
-                              style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text("${prayerTimes.asr!.toLocal().hour}:${prayerTimes.asr!.toLocal().minute}${prayerTimes.asr!.toLocal().minute}"),
-                        )),
-                    Card(
-                        color: orangeColor,
-                        child: ListTile(
-                          title: Text("Sholat Magrib",
-                              style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text("${prayerTimes.maghrib!.toLocal().hour}:${prayerTimes.maghrib!.toLocal().minute}"),
-                        )),
-                    Card(
-                        color: orangeColor,
-                        child: ListTile(
-                          title: Text("Sholat Isya",
-                              style: TextStyle(fontWeight: FontWeight.bold)),
-                          subtitle: Text("${prayerTimes.isha!.toLocal().hour}:${prayerTimes.isha!.toLocal().minute}${prayerTimes.asr!.toLocal().minute}"),
-                        )),
-                  ]),
-               
+                    subtitle: Text(
+                      "Untuk Wilayah Malang",
+                      textAlign: TextAlign.center,
+                    ),
+                  )),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  Card(
+                      color: greenColor,
+                      child: ListTile(
+                        title: Text("Sholat Shubuh",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, color: backColor)),
+                        subtitle: Text(
+                            "0${prayerTimes.fajr!.toLocal().hour}:${prayerTimes.fajr!.toLocal().minute}",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: backColor)),
+                      )),
+                  Card(
+                      color: greenColor,
+                      child: ListTile(
+                        title: Text("Sholat Dzuhur",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, color: backColor)),
+                        subtitle: Text(
+                            "${prayerTimes.dhuhr!.toLocal().hour}:${prayerTimes.dhuhr!.toLocal().minute}",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: backColor)),
+                      )),
+                  Card(
+                      color: greenColor,
+                      child: ListTile(
+                        title: Text("Sholat Ashar",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, color: backColor)),
+                        subtitle: Text(
+                            "${prayerTimes.asr!.toLocal().hour}:${prayerTimes.asr!.toLocal().minute}${prayerTimes.asr!.toLocal().minute}",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: backColor)),
+                      )),
+                  Card(
+                      color: greenColor,
+                      child: ListTile(
+                        title: Text("Sholat Magrib",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, color: backColor)),
+                        subtitle: Text(
+                            "${prayerTimes.maghrib!.toLocal().hour}:${prayerTimes.maghrib!.toLocal().minute}",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: backColor)),
+                      )),
+                  Card(
+                      color: greenColor,
+                      child: ListTile(
+                        title: Text("Sholat Isya",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, color: backColor)),
+                        subtitle: Text(
+                            "${prayerTimes.isha!.toLocal().hour}:0${prayerTimes.isha!.toLocal().minute}",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: backColor)),
+                      )),
+                ]),
               ),
             ],
           ),
