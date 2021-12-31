@@ -3,6 +3,7 @@ import 'package:intl/intl.dart';
 import 'package:issaq_pro/db/wishlist_database.dart';
 import 'package:issaq_pro/model/wishlist_model.dart';
 import 'package:issaq_pro/wishlist/edit_wishlist_page.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class WishlistDetailPage extends StatefulWidget {
   final int wishlistId;
@@ -39,8 +40,10 @@ class _WishlistDetailPageState extends State<WishlistDetailPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
+          backgroundColor: greenColor,
           actions: [editButton(), deleteButton()],
         ),
+        backgroundColor: orangeColor,
         body: isLoading
             ? Center(child: CircularProgressIndicator())
             : Padding(
