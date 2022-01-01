@@ -1,6 +1,7 @@
 import 'package:issaq_pro/dzikir/dzikir_page.dart';
 import 'package:issaq_pro/jadwal/adzan_list.dart';
 import 'package:issaq_pro/utils/theme.dart';
+import 'package:issaq_pro/page/wishlist_page.dart';
 import 'package:flutter/material.dart';
 import 'package:issaq_pro/page/doa_page.dart';
 
@@ -122,7 +123,7 @@ class HomeScreen extends StatelessWidget {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => DoaPage()));
+                                          builder: (context) => WishlistsPage()));
                                 },
                                 child: ItemMenu(
                                   title: 'Wish List Hafalan',
