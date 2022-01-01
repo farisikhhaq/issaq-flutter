@@ -5,6 +5,7 @@ import 'package:issaq_pro/model/wishlist_model.dart';
 import 'package:issaq_pro/wishlist/edit_wishlist_page.dart';
 import 'package:issaq_pro/wishlist/wishlist_page_detail.dart';
 import 'package:issaq_pro/widget/wishlist_card_widget.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class WishlistsPage extends StatefulWidget {
   @override
@@ -40,25 +41,35 @@ class _WishlistsPageState extends State<WishlistsPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
+          backgroundColor: orangeColor,
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(
+              Icons.arrow_back,
+              size: 24,
+              color: greenColor,
+            )),
           title: Text(
             'Wishlists',
-            style: TextStyle(fontSize: 24),
+            style: TextStyle(color: Colors.black, fontSize: 24),
           ),
-          actions: [Icon(Icons.search), SizedBox(width: 12)],
         ),
+        backgroundColor: orangeColor,
         body: Center(
           child: isLoading
               ? CircularProgressIndicator()
               : wishlists.isEmpty
                   ? Text(
                       'No Wishlists',
-                      style: TextStyle(color: Colors.white, fontSize: 24),
+                      style: TextStyle(color: Colors.black, fontSize: 24),
                     )
                   : buildWishlists(),
         ),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: Colors.black,
-          child: Icon(Icons.add),
+          backgroundColor: greenColor,
+          child: Icon(Icons.add, color: Colors.white,),
           onPressed: () async {
             await Navigator.of(context).push(
               MaterialPageRoute(builder: (context) => AddEditWishlistPage()),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:issaq_pro/db/wishlist_database.dart';
 import 'package:issaq_pro/model/wishlist_model.dart';
 import 'package:issaq_pro/widget/wishlist_form_widget.dart';
+import 'package:issaq_pro/utils/theme.dart';
 
 class AddEditWishlistPage extends StatefulWidget {
   final Wishlist? wishlist;
@@ -34,8 +35,10 @@ class _AddEditWishlistPageState extends State<AddEditWishlistPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
+          backgroundColor: greenColor,
           actions: [buildButton()],
         ),
+        backgroundColor: orangeColor,
         body: Form(
           key: _formKey,
           child: WishlistFormWidget(
@@ -55,16 +58,22 @@ class _AddEditWishlistPageState extends State<AddEditWishlistPage> {
 
   Widget buildButton() {
     final isFormValid = title.isNotEmpty && description.isNotEmpty;
-
     return Padding(
       padding: EdgeInsets.symmetric(vertical: 8, horizontal: 12),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          onPrimary: Colors.black,
-          primary: isFormValid ? null : Colors.grey.shade700,
+          onPrimary: Color(0xfff29f22), 
+          primary: Color(0xffFEE1D3),
+          
         ),
+        
         onPressed: addOrUpdateWishlist,
-        child: Text('Save'),
+        child: Text(
+          'Save',
+          style: TextStyle(
+            color: greenColor,
+          ),
+        ),
       ),
     );
   }
