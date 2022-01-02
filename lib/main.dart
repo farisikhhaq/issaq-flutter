@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:issaq_pro/splash.dart';
 import 'package:issaq_pro/utils/theme.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:issaq_pro/page/artikel-page.dart';
@@ -6,7 +7,6 @@ import 'package:issaq_pro/page/quran-page.dart';
 import 'package:issaq_pro/page/doa_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-// import 'package:issaq_pro/page/class_two.dart';
 import 'package:issaq_pro/page/home_screen.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CurvedNavWidget(),
+      home: Splash(),
     );
   }
 }
