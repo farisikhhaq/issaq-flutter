@@ -65,11 +65,6 @@ class _SuratListDetailState extends State<SuratListDetail> {
           ayatText,
           style: TextStyle(fontSize: 24),
         ),
-        // trailing: Icon(
-        //   Icons.keyboard_arrow_right,
-        //   color: Colors.black,
-        //   size: 30,
-        // ),
       );
 
   @override
@@ -86,7 +81,7 @@ class _SuratListDetailState extends State<SuratListDetail> {
         child: Center(
           child: FutureBuilder<List<SuratAyat>>(
             future: _ayatList,
-            builder: (BuildContext context,AsyncSnapshot snapshot) {
+            builder: (BuildContext context, AsyncSnapshot snapshot) {
               if (snapshot.hasData) {
                 List<SuratAyat> data = snapshot.data;
                 return _suratListView(data);

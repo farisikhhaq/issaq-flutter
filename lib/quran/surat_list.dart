@@ -9,14 +9,6 @@ class SuratList extends StatefulWidget {
 }
 
 class _SuratListState extends State<SuratList> {
-  // Future<List<QuranSurat>> _suratList;
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   _suratList = getSuratList();
-  // }
-
   ListView _suratListView(data) {
     return ListView.builder(
       itemCount: data.length,
@@ -91,7 +83,7 @@ class _SuratListState extends State<SuratList> {
         child: Center(
           child: FutureBuilder<List<QuranSurat>>(
             future: getSuratList(),
-            builder: (BuildContext context,AsyncSnapshot snapshot) {
+            builder: (BuildContext context, AsyncSnapshot snapshot) {
               if (snapshot.hasData) {
                 List<QuranSurat> data = snapshot.data;
                 return _suratListView(data);

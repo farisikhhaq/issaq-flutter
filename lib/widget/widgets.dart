@@ -18,9 +18,6 @@ Widget wInputSubmit(
   return Container(
       width: double.infinity,
       child: ElevatedButton(
-        // color: Theme.of(context).primaryColor,
-        // textColor: Colors.white,
-        // shape: StadiumBorder(),
         child: Text(title),
         onPressed: () {},
       ));

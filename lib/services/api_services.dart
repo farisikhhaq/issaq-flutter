@@ -3,11 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:issaq_pro/model/qari.dart';
 import 'package:issaq_pro/model/surah.dart';
 import 'package:issaq_pro/model/translation.dart';
-// import 'package:flutter_quran_app/model/juz.dart';
-// import 'package:flutter_quran_app/model/qari.dart';
-// import 'package:flutter_quran_app/model/sajda.dart';
-// import 'package:flutter_quran_app/model/surah.dart';
-// import 'package:flutter_quran_app/model/translation.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 
@@ -40,32 +35,6 @@ class ApiServices{
 
     return SurahTranslationList.fromJson(json.decode(res.body));
   }
-
-  // Future<SajdaList> getSajda() async {
-  //   //String url = "http://api.alquran.cloud/v1/sajda/quran-uthmani";
-  //   String url =   "http://api.alquran.cloud/v1/sajda/en.asad";
-  //   final response = await http.get(Uri.parse(url));
-
-  //   if (response.statusCode == 200) {
-  //     return SajdaList.fromJSON(json.decode(response.body));
-  //   } else {
-  //     print("Failed to load");
-  //     throw Exception("Failed  to Load Post");
-  //   }
-  // }
-
-  // Future<JuzModel> getJuzz(int index) async {
-  //   String url = "http://api.alquran.cloud/v1/juz/$index/quran-uthmani";
-  //  // String url = "http://api.alquran.cloud/v1/juz/$index/en.asad";
-  //   final response = await http.get(Uri.parse(url));
-
-  //   if (response.statusCode == 200) {
-  //     return JuzModel.fromJSON(json.decode(response.body));
-  //   } else {
-  //     print("Failed to load");
-  //     throw Exception("Failed  to Load Post");
-  //   }
-  // }
 
   Future<List<Qari>> getQariList()async{
     final url = "https://quranicaudio.com/api/qaris";
