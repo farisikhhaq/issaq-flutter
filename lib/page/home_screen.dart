@@ -26,11 +26,6 @@ class HomeScreen extends StatelessWidget {
                       child: Container(
                         color: orangeColor,
                       )),
-                  Flexible(
-                      flex: 1,
-                      child: Container(
-                        color: greenColor,
-                      ))
                 ],
               ),
               Column(

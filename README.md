@@ -52,6 +52,7 @@ C:\src>flutter run
    
 ### Murrotal Quran
 ![](gif/murrotalquran.gif)
+   ![](gif/splash.gif)
 
 ### Penjelasan
 
@@ -76,6 +77,7 @@ C:\src>flutter run
 
 5. Demo Murrotal Quran
 * Gambar 1 = Tampilan Murrotal Quran dengan fitur play, pause, rewind,forward, dan backward. Dapat pula dilakukan pemilihan qori yang membaca serta surat yang ingin diputar 
+* Gambar 2 = Tampilan Splash Screen
 
 ## Postponed Features
 
