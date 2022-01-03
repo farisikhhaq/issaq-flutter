@@ -1,17 +1,10 @@
 # ISSAQ (Information System Shola and Quran) 
 
-Jadi ini merupakan aplikasi yang melingkup seputar agama seperti informasi Sholat, Pembacaan Alquran, Doa, Artikle dan Lainnya.
+Jadi ini merupakan aplikasi yang melingkup seputar agama islam seperti informasi Sholat, Pembacaan Alquran, Doa, Artikle dan Lainnya.
 
 ## Pendahuluan
 
-Pada project aplikasi ini saya menggunakan flutter sebagai framework dan bahasa pemograman dart sebagai back-end nya. serta ada beberapa sumber lain sebagai artikle, quran, sholat maupun lainnya. untuk menjalankan aplikasi ini diperlukan beberapa installasi software untuk pengembangannya.
-
-## UPDATE FINAL PROJECT
-1. Jadwal Sholat
-2. Dzikir Counter
-3. Dzikir Bacaan
-4. Murrotal
-5. Wish List Catatan Quran
+Pada project aplikasi ini saya menggunakan flutter sebagai framework dan bahasa pemograman dart sebagai back-end nya. serta ada beberapa sumber lain sebagai artikle, quran, sholat maupun lainnya. untuk menjalankan aplikasi ini diperlukan beberapa installasi software untuk pengembangannya. Adapula fitur pada aplikasi kami adalah seperti wishlist (yang ingin dihafalkan, note, maupun lainnya yang dihubungkan dengan sqlflite), halaman quran (untuk membaca quran), murrotal quran (pembaca quran dalam bentuk suara dengan berbagai imam yang dihubungkan dengan API), jadwal sholat (Hanya untuk wilayah malang saja sementara ini dengan menggunakan liblary pada pub.dev), home screen (sebagai menu navigasi), halaman dzikir (tampilan pembaca dzikir beserta artinya), penghitung dzikir (digunakan untuk counter atau penghitung dzikir beserta urutannya), doa harian (doa yang dapat dibaca sesuai peruntukannya beserta artinya), artikel (pembaca artikel yang masih dalam bentuk model saja) 
 
 ### Installasi 
 
@@ -41,48 +34,54 @@ C:\src>flutter run
 
 ## Demo Aplikasi GIF
 
-### Demo Sidebar Perpindahan Antar Page
-![](gif/bottomnavbar.gif)
-   ![](gif/scrollview.gif)
+### Home Screen & Quran Page
+![](gif/homescreen.gif)
+   ![](gif/quranpage.gif)
 
-### List View Pada Page Artikel
+### Artikel Page & Jadwal Sholat
 ![](gif/artikelpage.gif)
+   ![](gif/jadwalsholat.gif)
 
-
-### List View Pada DOA dan Pergantian Page
-![](gif/doapage.gif)
-
-### List View dan API Sinkroniasasi Quran Page
-![](gif/quran1.gif)
-   ![](gif/quran2scroll.gif)
-
+### Doa Harian & Wishlist Page
+![](gif/doaharian.gif)
+   ![](gif/wishlist.gif)
+   
+### Dzikir Page & Dzikir Counter
+![](gif/dzikirpage.gif)
+   ![](gif/dzikircount.gif)
+   
+### Murrotal Quran
+![](gif/murrotalquran.gif)
 
 ### Penjelasan
 
-1. Demo Sidebar Perpindahan Antar Page
+1. Demo Home Screen & Quran Page
 
-* Gambar 1 = Demo Antar Page menggunakan Bottom navbar menu berbentuk stack
-* Gambar 2 = Melakukan test scroll pada homepage
+* Gambar 1 = Tampilan dari homescreen dengan tampilan menggunakan bottom navbar
+* Gambar 2 = Tampilan quran dengan bentuk berupa listview dengan menggunakan API
 
-2. List View Pada Page Artikel
+2. Demo Artikel Page & Jadwal Sholat
 
-* Gambar 1 = List View berjumlah 10 dan dapat berpindah page dengan adanya pemilihan data melalui detail_artikle.dart menggunakan model yang telah dibuat
+* Gambar 1 = Tampilan dari artikel dengan penggunaan list view dan base menggunakan model yang dibuat dari refrensi internet yang ada
+* Gambar 2 = Tampilan Jadwal Sholat dengan penggunaan liblary yang diambil pada pub.dev flutter
 
-3. List View Pada DOA dan Pergantian Page
+3. Demo Doa Harian & Wishlist Page
 
-* Gambar 1 = Menekan  Page doa dan akan menampilkan 8 data model yang telah dibuat dengan berbentuk list cardview
+* Gambar 1 = Tampilan dari doa harian dengan mengguankan list view stack / grid dengan sumber menggunakan model
+* Gambar 2 = Tampilan Wishlist Page dengan menggunakan back end sqflite yang disimpan secara lokal
 
-4. API Connect dengan Quran Kemenag
-* Gambar 1 = Demo membuka detail quran page pada surah alfatihah
-* Gambar 2 = Melakukan test scroll pada quran page untuk mendeteksi bahwa api berhasil berjalan dengan lancar
+4. Demo Dzikir Page & Dzikir Counter
+* Gambar 1 = Tampilan Dzikir Page dengan mengguankan model yang telah dibuat dengan refrensi internet yang ada
+* Gambar 2 = Tampilan Dzikir Counter terdapat keterangan diatas dapat dilakukan penambahan maupun pengurangan pada counternya
 
-## In Progress dan Error Saat pengerjaan
+5. Demo Murrotal Quran
+* Gambar 1 = Tampilan Murrotal Quran dengan fitur play, pause, rewind,forward, dan backward. Dapat pula dilakukan pemilihan qori yang membaca serta surat yang ingin diputar 
 
-* Menunggu Update Lebih Lanjut (INPROGRESS)
+## Postponed Features
 
-## YOUTUBE LINK
-
-* Menunggu Update Lebih Lanjut (INPROGRESS)
+* Video Player digantikan dengan Murrotal Quran
+* Terjemahan Quran (API masih belum ada yang cocok)
+* Fitur Wishlist masih lokal menggunakan sqflite
 
 ## IDENTITAS DIRI
 ```
