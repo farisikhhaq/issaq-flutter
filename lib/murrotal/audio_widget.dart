@@ -50,16 +50,6 @@ class _AudioWidgetState extends State<AudioWidget> {
                       ),
                     ]
                 ),
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                    children: [                      
-                      Text('Search', style: blacksPoppins.copyWith(fontSize: 10),),
-                      Spacer(),                      
-                      Icon(Icons.search),
-                    ],
-                  ),
-                ),
               ),
               SizedBox(height: 20,),
               Padding(

@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 Color toscaColor = Color(0xfff26363);
-Color lightToscaColor = Color(0xff5daecd);
-Color darkToscaColor = Color(0xff00536e);
+Color lightToscaColor = Color(0xffb768fe);
+Color darkToscaColor = Color(0xff6c6e97);
 Color backColor = Color(0xffFEE1D3);
 Color newColor2 = Color(0xffC382049);
 Color newColor3 = Color(0xff79708F);
