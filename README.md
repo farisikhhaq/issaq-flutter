@@ -79,11 +79,6 @@ C:\src>flutter run
 * Gambar 1 = Tampilan Murrotal Quran dengan fitur play, pause, rewind,forward, dan backward. Dapat pula dilakukan pemilihan qori yang membaca serta surat yang ingin diputar 
 * Gambar 2 = Tampilan Splash Screen
 
-## Postponed Features
-
-* Video Player digantikan dengan Murrotal Quran
-* Terjemahan Quran (API masih belum ada yang cocok)
-* Fitur Wishlist masih lokal menggunakan sqflite
 
 ## IDENTITAS DIRI
 ```
